@@ -1,0 +1,81 @@
+normalized_sample_label,si1_sample_key,si1_label,si2_sample_key,si2_label,joined,note
+10j089,brocks_si1:Sheet1:99,10J089,brocks_si2:S & H:142,10J089,true,same named sample in both workbooks
+10j090,brocks_si1:Sheet1:95,10J090,brocks_si2:S & H:141,10J090,true,same named sample in both workbooks
+10j091,brocks_si1:Sheet1:98,10J091,brocks_si2:S & H:140,10J091,true,same named sample in both workbooks
+10j092,brocks_si1:Sheet1:97,10J092,brocks_si2:S & H:139,10J092,true,same named sample in both workbooks
+10j093,brocks_si1:Sheet1:96,10J093,brocks_si2:S & H:138,10J093,true,same named sample in both workbooks
+11j005i,brocks_si1:Sheet1:59,11J005 i ,brocks_si2:S & H:124,11J005 i ,true,same named sample in both workbooks
+11j021i,brocks_si1:Sheet1:66,11J021 i,brocks_si2:S & H:147,11J021 i,true,same named sample in both workbooks
+11j024i,brocks_si1:Sheet1:71,11J024 i,brocks_si2:S & H:151,11J024 I,true,same named sample in both workbooks
+11n045bi,brocks_si1:Sheet1:113,11N045b-I,brocks_si2:S & H:165,11N045b-I,true,same named sample in both workbooks
+11n048i,brocks_si1:Sheet1:106,11N048-I,brocks_si2:S & H:158,11N048-I,true,same named sample in both workbooks
+11n049i,brocks_si1:Sheet1:110,11N049-I,brocks_si2:S & H:162,11N049-I,true,same named sample in both workbooks
+11n050i,brocks_si1:Sheet1:111,11N050-I,brocks_si2:S & H:163,11N050-I,true,same named sample in both workbooks
+11n051i,brocks_si1:Sheet1:117,11N051-I,brocks_si2:S & H:167,11N051-I,true,same named sample in both workbooks
+11n052i,brocks_si1:Sheet1:108,11N052-I,brocks_si2:S & H:160,11N052-I,true,same named sample in both workbooks
+11n054i,brocks_si1:Sheet1:112,11N054-I,brocks_si2:S & H:164,11N054-I,true,same named sample in both workbooks
+11n055i,brocks_si1:Sheet1:116,11N055-I,brocks_si2:S & H:166,11N055-I,true,same named sample in both workbooks
+11n056i,brocks_si1:Sheet1:118,11N056-I,brocks_si2:S & H:168,11N056-I,true,same named sample in both workbooks
+12b117,brocks_si1:Sheet1:149,12B117,brocks_si2:S & H:196,12B117,true,same named sample in both workbooks
+12b118,brocks_si1:Sheet1:150,12B118,brocks_si2:S & H:197,12B118,true,same named sample in both workbooks
+12b119,brocks_si1:Sheet1:152,12B119,brocks_si2:S & H:199,12B119,true,same named sample in both workbooks
+12j019i2,brocks_si1:Sheet1:61,12J019 i2,brocks_si2:S & H:126,12J019 i2,true,same named sample in both workbooks
+12n20i,brocks_si1:Sheet1:109,12N20-I,brocks_si2:S & H:161,12N20-I,true,same named sample in both workbooks
+12z167,brocks_si1:Sheet1:151,12Z167,brocks_si2:S & H:198,12Z167,true,same named sample in both workbooks
+13j005i,brocks_si1:Sheet1:60,13J005 i,brocks_si2:S & H:125,13J005 i,true,same named sample in both workbooks
+13j0902i,brocks_si1:Sheet1:62,13J0902 i,brocks_si2:S & H:127,13J0902 i,true,same named sample in both workbooks
+13j0903i,brocks_si1:Sheet1:63,13J0903 i,brocks_si2:S & H:128,13J0903 i,true,same named sample in both workbooks
+13n06i,brocks_si1:Sheet1:107,13N06-I,brocks_si2:S & H:159,13N06-I,true,same named sample in both workbooks
+13n31,brocks_si1:Sheet1:122,13N31,brocks_si2:S & H:171,13N31,true,same named sample in both workbooks
+13n34,brocks_si1:Sheet1:124,13N34,brocks_si2:S & H:173,13N34,true,same named sample in both workbooks
+13n36,brocks_si1:Sheet1:120,13N36,brocks_si2:S & H:169,13N36,true,same named sample in both workbooks
+13n37,brocks_si1:Sheet1:123,13N37,brocks_si2:S & H:172,13N37,true,same named sample in both workbooks
+13n41,brocks_si1:Sheet1:121,13N41,brocks_si2:S & H:170,13N41,true,same named sample in both workbooks
+13n42,brocks_si1:Sheet1:127,13N42,brocks_si2:S & H:176,13N42,true,same named sample in both workbooks
+13n45,brocks_si1:Sheet1:126,13N45,brocks_si2:S & H:175,13N45,true,same named sample in both workbooks
+14b201ai,brocks_si1:Sheet1:92,14B201-a i,brocks_si2:S & H:145,14B201-a i,true,same named sample in both workbooks
+14b201bi,brocks_si1:Sheet1:91,14B201-b i,brocks_si2:S & H:146,14B201-b i,true,same named sample in both workbooks
+14b203i,brocks_si1:Sheet1:88,14B203 i,brocks_si2:S & H:136,14B203 i,true,same named sample in both workbooks
+14b204i,brocks_si1:Sheet1:87,14B204 i,brocks_si2:S & H:135,14B204 i,true,same named sample in both workbooks
+14b206i,brocks_si1:Sheet1:86,14B206 i,brocks_si2:S & H:134,14B206 i,true,same named sample in both workbooks
+14b210i,brocks_si1:Sheet1:82,14B210 i,brocks_si2:S & H:133,14B210 i,true,same named sample in both workbooks
+14b211i,brocks_si1:Sheet1:81,14B211 i,brocks_si2:S & H:132,14B211 i,true,same named sample in both workbooks
+14b212i,brocks_si1:Sheet1:80,14B212 i,brocks_si2:S & H:131,14B212 i,true,same named sample in both workbooks
+14b213i,brocks_si1:Sheet1:78,14B213 i,brocks_si2:S & H:130,14B213 i,true,same named sample in both workbooks
+15b602,brocks_si1:Sheet1:41,15B602,brocks_si2:S & H:87,15B602,true,same named sample in both workbooks
+17b014,brocks_si1:Sheet1:28,17B014,brocks_si2:S & H:67,17B014,true,same named sample in both workbooks
+17b100,brocks_si1:Sheet1:138,17B100,brocks_si2:S & H:187,17B100,true,same named sample in both workbooks
+17b101,brocks_si1:Sheet1:139,17B101,brocks_si2:S & H:188,17B101,true,same named sample in both workbooks
+agsostd,brocks_si1:Sheet1:16,AGSO Std,brocks_si2:S & H:39,AGSO Std,false,analytical standard; not a geological sample
+b0300210,brocks_si1:Sheet1:42,B03002 10,brocks_si2:S & H:88,B03002 10,true,same named sample in both workbooks
+b030106i,brocks_si1:Sheet1:43,B03010 6i,brocks_si2:S & H:89,B03010 6i,true,same named sample in both workbooks
+b03162c,brocks_si1:Sheet1:143,B03162c,brocks_si2:S & H:190,B03162c,true,same named sample in both workbooks
+b03167,brocks_si1:Sheet1:144,B03167,brocks_si2:S & H:191,B03167,true,same named sample in both workbooks
+b03168,brocks_si1:Sheet1:145,B03168,brocks_si2:S & H:192,B03168,true,same named sample in both workbooks
+b03169,brocks_si1:Sheet1:146,B03169,brocks_si2:S & H:193,B03169,true,same named sample in both workbooks
+b03175,brocks_si1:Sheet1:147,B03175,brocks_si2:S & H:194,B03175,true,same named sample in both workbooks
+b03178,brocks_si1:Sheet1:148,B03178,brocks_si2:S & H:195,B03178,true,same named sample in both workbooks
+b04005i,brocks_si1:Sheet1:125,B04005-i,brocks_si2:S & H:174,B04005-i,true,same named sample in both workbooks
+b04007i,brocks_si1:Sheet1:128,B04007-I,brocks_si2:S & H:177,B04007-i,true,same named sample in both workbooks
+b04026i,brocks_si1:Sheet1:100,B04026 - i,brocks_si2:S & H:137,B04026-i,true,same named sample in both workbooks
+ga10059,brocks_si1:Sheet1:18,GA10059,brocks_si2:S & H:42,GA10059,true,same named sample in both workbooks
+ga148,brocks_si1:Sheet1:8,GA148,brocks_si2:S & H:11,GA148,true,same named sample in both workbooks
+ga151,brocks_si1:Sheet1:9,GA151 ,brocks_si2:S & H:12,GA151 ,true,same named sample in both workbooks
+ga175,brocks_si1:Sheet1:10,GA175,brocks_si2:S & H:14,GA175,true,same named sample in both workbooks
+ga19999118,brocks_si1:Sheet1:24,GA19999118,brocks_si2:S & H:60,GA19999118,true,same named sample in both workbooks
+ga19999642,brocks_si1:Sheet1:17,GA19999642,brocks_si2:S & H:40,GA19999642,true,same named sample in both workbooks
+ga19999818,brocks_si1:Sheet1:19,GA19999818,brocks_si2:S & H:43,GA19999818,true,same named sample in both workbooks
+ga2009019,brocks_si1:Sheet1:26,GA2009019 ,brocks_si2:S & H:55,GA2009019 ,true,same named sample in both workbooks
+ga20149682,brocks_si1:Sheet1:27,GA20149682,brocks_si2:S & H:57,GA20149682,true,same named sample in both workbooks
+ga20149693,brocks_si1:Sheet1:25,GA20149693,brocks_si2:S & H:56,GA20149693,true,same named sample in both workbooks
+ga20150106,brocks_si1:Sheet1:130,GA 20150106,brocks_si2:S & H:179,GA 20150106,true,same named sample in both workbooks
+ga20150115,brocks_si1:Sheet1:131,GA 20150115,brocks_si2:S & H:180,GA 20150115,true,same named sample in both workbooks
+ga20150118,brocks_si1:Sheet1:132,GA 20150118,brocks_si2:S & H:181,GA 20150118,true,same named sample in both workbooks
+ga20150129,brocks_si1:Sheet1:133,GA 20150129,brocks_si2:S & H:182,GA 20150129,true,same named sample in both workbooks
+ga224,brocks_si1:Sheet1:12,GA224,brocks_si2:S & H:26,GA224,true,same named sample in both workbooks
+ga23aroms,brocks_si1:Sheet1:22,GA23 Aroms,brocks_si2:S & H:51,GA23 Aroms,true,same named sample in both workbooks
+ga409,brocks_si1:Sheet1:20,GA409 ,brocks_si2:S & H:46,GA409 ,true,same named sample in both workbooks
+ga74,brocks_si1:Sheet1:15,GA74,brocks_si2:S & H:36,GA74,true,same named sample in both workbooks
+ga888,brocks_si1:Sheet1:14,GA888,brocks_si2:S & H:30,GA888,true,same named sample in both workbooks
+ga89,brocks_si1:Sheet1:13,GA89,brocks_si2:S & H:29,GA89,true,same named sample in both workbooks
+vg2003i,brocks_si1:Sheet1:103,VG-20-03-i,brocks_si2:S & H:143,VG-20-03-i,true,same named sample in both workbooks

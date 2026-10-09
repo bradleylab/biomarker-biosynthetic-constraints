@@ -1,0 +1,55 @@
+# The five source categories and the two sets of assignments (strict and
+# broader) linking fossil classes to precursor classes (fossil_to_precursor.csv)
+# and precursor classes to source categories (precursor_to_source.csv).
+#
+# An assignment of a fossil class to a source category joins one fossil-to-
+# precursor link with one precursor-to-source link through the same precursor
+# class. Under strict assignments both links must be strict; under broader
+# assignments every strict link is kept and the broader links are added. The
+# categories can overlap, and evidence of modern production establishes that a
+# precursor class and a source category are compatible.
+
+source_categories:
+  - source_class_id: hopanoid_producing_bacterial_sources
+    label: Hopanoid-producing bacteria
+  - source_class_id: bacterial_protosterol_or_ursterol_sources
+    label: Bacteria producing protosterols or ursterols
+  - source_class_id: stem_eukaryotic_protosterol_or_ursterol_hypotheses
+    label: Hypothesized stem eukaryotes producing protosterols or ursterols
+  - source_class_id: crown_eukaryotic_crown_sterol_sources
+    label: Crown eukaryotes producing conventional sterols
+  - source_class_id: bacterial_conventional_sterol_sources
+    label: Bacteria producing conventional sterols
+
+criteria:
+  strict:
+    fossil_to_precursor: >-
+      A fossil class is linked to a precursor class only when the relationship is
+      structurally or experimentally supported and the precursor class has a documented
+      biosynthesis. The workbook's stem, mixed or crown interpretation labels are not used.
+    precursor_to_source: >-
+      A precursor class is linked to a source category only on direct culture, lipid,
+      genetic, biochemical or pathway-product evidence from a member of that category.
+  broader:
+    includes_strict: true
+    fossil_to_precursor: >-
+      Every strict link plus nonexclusive alternative precursors explicitly supported by a
+      primary source. Tentative structures and unresolved alternatives remain marked as such.
+    precursor_to_source: >-
+      Every strict link plus evidence of enzyme capacity and explicit source hypotheses from
+      primary studies.
+
+# Bacterial alternatives recorded in conflict_status of the two assignment files.
+bacterial_alternatives:
+  - conflict_status: resolved_bacterial_cholesterol_conflict
+    precursor_ids: [c27_cholesterol_related_sterol_pool]
+    source_class_id: bacterial_conventional_sterol_sources
+    citation_ids: [lee2023_cholesterol_bacteria]
+    assignment_criteria: strict
+    note: Direct culture and lipid evidence for bacterial de novo cholesterol production; cholestanes are not exclusively crown-eukaryotic.
+  - conflict_status: resolved_bacterial_side_chain_capacity_conflict
+    precursor_ids: [c28_ergosterol_related_sterol_pool, c29_stigmasterol_related_sterol_pool]
+    source_class_id: bacterial_conventional_sterol_sources
+    citation_ids: [brown2023_bacterial_smt]
+    assignment_criteria: broader
+    note: Functional bacterial sterol methyltransferases produce side-chain-alkylated sterols in vitro; genomic context supports bacterial capacity but does not identify the fossil producers.

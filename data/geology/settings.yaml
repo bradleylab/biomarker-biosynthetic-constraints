@@ -1,0 +1,22 @@
+# Settings of the source-compatibility analysis of the geological samples.
+#
+# Detection: a fossil class is detected in a sample when its reported abundance
+# is greater than the detection threshold. The thresholds of a measurement
+# group are zero and every distinct positive abundance reported in that group;
+# thresholds that give the same set of detected classes for a sample are
+# combined into one scenario, and the threshold intervals are kept.
+# Non-numeric cells (blanks and qualifiers such as n.d.) are not detections and
+# are not filled in.
+#
+# Low-signal treatment: values marked as low signals (italic in the workbook)
+# are either included or excluded.
+#
+# Sensitivity tests: every subset of the detected classes, from none to all, is
+# delegated to sources outside the five categories (delegation); each evidence
+# record (fossil-to-precursor link, precursor-to-source link, representative
+# target) is removed in turn (evidence removal); each detected class is omitted
+# in turn (omission); each undetected class is added in turn, assuming it is
+# detected (addition).
+
+low_signal_treatments: [exclude, include]
+assignment_criteria: [strict, broader]

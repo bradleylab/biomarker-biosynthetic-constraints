@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code, please cite the article it accompanies (Hinkston, M.
+  and Bradley, A. S., Quantifying biosynthetic constraints on molecular
+  biomarker interpretation) and this version of the code.
+title: >-
+  Code and data for "Quantifying biosynthetic constraints on molecular
+  biomarker interpretation"
+type: software
+version: 1.0.0
+doi: "10.5281/zenodo.23253971"
+license: MIT
+repository-code: "https://github.com/bradleylab/biomarker-biosynthetic-constraints"
+authors:
+  - family-names: Hinkston
+    given-names: Maggie
+    affiliation: >-
+      Department of Earth, Environmental, and Planetary Sciences,
+      Washington University in St. Louis
+    orcid: "https://orcid.org/0000-0001-9394-6214"
+  - family-names: Bradley
+    given-names: Alexander S.
+    email: abradley@wustl.edu
+    affiliation: >-
+      Department of Earth, Environmental, and Planetary Sciences,
+      Washington University in St. Louis
+    orcid: "https://orcid.org/0000-0002-4044-2802"
+keywords:
+  - biomarkers
+  - biosynthesis
+  - metabolic networks
+  - MetaCyc
+  - geochemistry

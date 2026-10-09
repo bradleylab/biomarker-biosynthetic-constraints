@@ -1,0 +1,820 @@
+{
+  "reactions": [
+    {
+      "_comment": "Hopanoid side-chain modifications (7 reactions)",
+      "_note": "These reactions extend hopanoids beyond diplopterol and are not in MetaCyc."
+    },
+    {
+      "id": "SUPP-RXN-HPNH",
+      "name": "adenosylhopane synthesis",
+      "enzyme": "HpnH",
+      "enzyme_name": "SAM:hopene 5'-deoxyadenosyl transferase",
+      "gene": "hpnH",
+      "ec_number": "2.5.1.-",
+      "substrates": [
+        "HOP-2229-ENE",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "substrates_metacyc": [
+        "HOP-2229-ENE",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "products": [
+        "CPD-14522",
+        "L-METHIONINE"
+      ],
+      "products_metacyc": [
+        "CPD-14522",
+        "L-METHIONINE"
+      ],
+      "cofactors": [
+        "flavodoxin",
+        "NADPH"
+      ],
+      "mechanism": "radical SAM",
+      "reversible": false,
+      "references": [
+        "Bradley et al. 2010 Org Geochem",
+        "Welander et al. 2012"
+      ],
+      "metacyc_status": "not in MetaCyc; required for hopanoid side-chain biosynthesis"
+    },
+    {
+      "id": "SUPP-RXN-HPNG",
+      "name": "ribosylhopane synthesis",
+      "enzyme": "HpnG",
+      "enzyme_name": "hopanoid-associated phosphorylase",
+      "gene": "hpnG",
+      "ec_number": null,
+      "substrates": [
+        "CPD-14522"
+      ],
+      "substrates_metacyc": [
+        "CPD-14522"
+      ],
+      "products": [
+        "CPD-14523",
+        "ADENINE"
+      ],
+      "products_metacyc": [
+        "CPD-14523",
+        "ADENINE"
+      ],
+      "mechanism": "nucleoside phosphorylase",
+      "reversible": false,
+      "references": [
+        "Bradley et al. 2010 Org Geochem"
+      ],
+      "metacyc_status": "not in MetaCyc"
+    },
+    {
+      "id": "SUPP-RXN-RIBOSYL-TO-BHT",
+      "name": "bacteriohopanetetrol synthesis",
+      "enzyme": "Unknown",
+      "enzyme_name": "ribosylhopane ring-opening enzyme",
+      "gene": "unknown (possibly hpnA)",
+      "substrates": [
+        "CPD-14523"
+      ],
+      "substrates_metacyc": [
+        "CPD-14523"
+      ],
+      "products": [
+        "CPD-14519"
+      ],
+      "products_metacyc": [
+        "CPD-14519"
+      ],
+      "notes": "Enzyme not identified. May involve ring opening of the ribose.",
+      "references": [
+        "Belin et al. 2018 Nat Rev Microbiol"
+      ],
+      "metacyc_status": "not in MetaCyc; enzyme unknown"
+    },
+    {
+      "id": "SUPP-RXN-HPNO",
+      "name": "aminobacteriohopanetriol synthesis",
+      "enzyme": "HpnO",
+      "enzyme_name": "BHT aminotransferase",
+      "gene": "hpnO",
+      "ec_number": "2.6.1.-",
+      "substrates": [
+        "CPD-14519",
+        "GLT"
+      ],
+      "substrates_metacyc": [
+        "CPD-14519",
+        "GLT"
+      ],
+      "products": [
+        "CPD-14521",
+        "2-KETOGLUTARATE"
+      ],
+      "products_metacyc": [
+        "CPD-14521",
+        "2-KETOGLUTARATE"
+      ],
+      "mechanism": "aminotransferase (PLP-dependent)",
+      "reversible": false,
+      "references": [
+        "Welander et al. 2012",
+        "Schmerk et al. 2015 Env Microbiol"
+      ],
+      "notes": "Aminates terminal hydroxyl of BHT",
+      "metacyc_status": "not in MetaCyc"
+    },
+    {
+      "id": "SUPP-RXN-HPNI",
+      "name": "BHT-N-acetylglucosamine synthesis",
+      "enzyme": "HpnI",
+      "enzyme_name": "hopanoid biosynthesis-associated glycosyltransferase",
+      "gene": "hpnI",
+      "ec_number": "2.4.1.-",
+      "substrates": [
+        "CPD-14519",
+        "UDP-N-ACETYL-D-GLUCOSAMINE"
+      ],
+      "substrates_metacyc": [
+        "CPD-14519",
+        "UDP-N-ACETYL-D-GLUCOSAMINE"
+      ],
+      "products": [
+        "SUPP-CPD-BHT-GLCNAC",
+        "UDP"
+      ],
+      "products_metacyc_note": "BHT-GlcNAc not in MetaCyc",
+      "mechanism": "glycosyltransferase",
+      "reversible": false,
+      "references": [
+        "Schmerk et al. 2015 Env Microbiol"
+      ],
+      "metacyc_status": "not in MetaCyc"
+    },
+    {
+      "id": "SUPP-RXN-HPNK",
+      "name": "BHT-glucosamine synthesis",
+      "enzyme": "HpnK",
+      "enzyme_name": "hopanoid biosynthesis-associated deacetylase",
+      "gene": "hpnK",
+      "ec_number": "3.5.1.-",
+      "substrates": [
+        "SUPP-CPD-BHT-GLCNAC"
+      ],
+      "products": [
+        "SUPP-CPD-BHT-GLCN",
+        "ACET"
+      ],
+      "products_metacyc_note": "BHT-glucosamine not in MetaCyc",
+      "mechanism": "deacetylase",
+      "reversible": false,
+      "references": [
+        "Schmerk et al. 2015 Env Microbiol"
+      ],
+      "metacyc_status": "not in MetaCyc"
+    },
+    {
+      "id": "SUPP-RXN-HPNJ",
+      "name": "BHT-cyclitol-ether synthesis",
+      "enzyme": "HpnJ",
+      "enzyme_name": "hopanoid biosynthesis-associated radical SAM cyclitol synthase",
+      "gene": "hpnJ",
+      "ec_number": null,
+      "substrates": [
+        "SUPP-CPD-BHT-GLCN",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "products": [
+        "SUPP-CPD-BHT-CYCLITOL",
+        "DADP",
+        "L-METHIONINE"
+      ],
+      "products_metacyc_note": "BHT-cyclitol-ether not in MetaCyc",
+      "mechanism": "radical SAM",
+      "reversible": false,
+      "references": [
+        "Schmerk et al. 2015 Env Microbiol"
+      ],
+      "metacyc_status": "not in MetaCyc"
+    },
+    {
+      "_comment": "Hopanoid A-ring methylation (2 reactions)"
+    },
+    {
+      "id": "SUPP-RXN-HPNP",
+      "name": "2-methyl-BHT synthesis",
+      "enzyme": "HpnP",
+      "enzyme_name": "hopanoid C-2 methyltransferase",
+      "gene": "hpnP",
+      "ec_number": "2.1.1.-",
+      "substrates": [
+        "CPD-14519",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "substrates_metacyc": [
+        "CPD-14519",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "products": [
+        "CPD-14520",
+        "ADENOSYL-HOMO-CYS"
+      ],
+      "products_metacyc": [
+        "CPD-14520",
+        "ADENOSYL-HOMO-CYS"
+      ],
+      "cofactors": [
+        "cobalamin (vitamin B12)"
+      ],
+      "mechanism": "radical SAM methyltransferase",
+      "reversible": false,
+      "references": [
+        "Welander et al. 2010 PNAS",
+        "Elling et al. 2020 PNAS (B12 dependence)",
+        "Sinninghe Damste et al. 2025 Geobiology"
+      ],
+      "notes": "Can also act on other hopanoids (diplopterol, etc.) but BHT is primary substrate",
+      "biomarker_relevance": "2-methylhopanes - formerly cyanobacterial marker, now known in alphaproteobacteria, nitrite oxidizers",
+      "metacyc_status": "not in MetaCyc"
+    },
+    {
+      "id": "SUPP-RXN-HPNR",
+      "name": "3-methyl-BHT synthesis",
+      "enzyme": "HpnR",
+      "enzyme_name": "hopanoid C-3 methyltransferase",
+      "gene": "hpnR",
+      "ec_number": "2.1.1.-",
+      "substrates": [
+        "CPD-14519",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "substrates_metacyc": [
+        "CPD-14519",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "products": [
+        "SUPP-CPD-3ME-BHT",
+        "ADENOSYL-HOMO-CYS"
+      ],
+      "products_metacyc_note": "3-methyl-BHT not in MetaCyc",
+      "cofactors": [
+        "cobalamin (vitamin B12)"
+      ],
+      "mechanism": "radical SAM methyltransferase",
+      "reversible": false,
+      "references": [
+        "Welander & Summons 2012",
+        "Sinninghe Damste et al. 2025 Geobiology"
+      ],
+      "biomarker_relevance": "3-methylhopanes - methanotrophs, acetic acid bacteria",
+      "metacyc_status": "not in MetaCyc"
+    },
+    {
+      "_comment": "Archaeal tetraether biosynthesis (4 reactions)",
+      "_note": "These connect to archaeol (CPD-15250) from PWY-6349"
+    },
+    {
+      "id": "SUPP-RXN-TES",
+      "name": "GDGT-0 synthesis",
+      "enzyme": "Tes",
+      "enzyme_name": "tetraether synthase (GDGT-macrocyclic archaeol synthase)",
+      "gene": "tes",
+      "ec_number": null,
+      "substrates": [
+        "CPD-15250",
+        "CPD-15250"
+      ],
+      "substrates_metacyc": [
+        "CPD-15250",
+        "CPD-15250"
+      ],
+      "products": [
+        "SUPP-CPD-GDGT0"
+      ],
+      "products_metacyc_note": "GDGT-0 not in MetaCyc",
+      "mechanism": "radical SAM C-C bond formation",
+      "reversible": false,
+      "references": [
+        "Zeng et al. 2022 Nature Communications",
+        "Lloyd et al. 2022 Nature"
+      ],
+      "notes": "Joins two archaeol molecules by forming two C-C bonds between terminal carbons of phytanyl chains.",
+      "connection_to_metacyc": "archaeol (CPD-15250) from PWY-6349",
+      "biomarker_relevance": "GDGT-0 is precursor to all cyclized GDGTs used in TEX86 paleothermometry",
+      "metacyc_status": "not in MetaCyc; described in 2022"
+    },
+    {
+      "id": "SUPP-RXN-GRSA",
+      "name": "GDGT C-7 cyclization",
+      "enzyme": "GrsA",
+      "enzyme_name": "GDGT ring synthase A",
+      "gene": "grsA",
+      "ec_number": null,
+      "substrates": [
+        "SUPP-CPD-GDGT0",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "products": [
+        "SUPP-CPD-GDGT-CYCLIZED",
+        "DADP",
+        "L-METHIONINE"
+      ],
+      "mechanism": "radical SAM cyclopentane ring formation at C-7",
+      "reversible": false,
+      "references": [
+        "Zeng et al. 2019 PNAS"
+      ],
+      "notes": "Introduces 1-4 cyclopentane rings at C-7 position. Product represents GDGT-1 through GDGT-4 (all C-7 cyclized isomers).",
+      "biomarker_relevance": "TEX86 paleothermometry relies on relative abundances of cyclized GDGTs",
+      "metacyc_status": "not in MetaCyc; described in 2019"
+    },
+    {
+      "id": "SUPP-RXN-GRSB",
+      "name": "GDGT C-3 cyclization",
+      "enzyme": "GrsB",
+      "enzyme_name": "GDGT ring synthase B",
+      "gene": "grsB",
+      "ec_number": null,
+      "substrates": [
+        "SUPP-CPD-GDGT-CYCLIZED",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "products": [
+        "SUPP-CPD-GDGT-POLYCYCLIZED",
+        "DADP",
+        "L-METHIONINE"
+      ],
+      "mechanism": "radical SAM cyclopentane ring formation at C-3",
+      "reversible": false,
+      "references": [
+        "Zeng et al. 2019 PNAS"
+      ],
+      "notes": "Acts on C-7 cyclized GDGTs to add rings at C-3 position. Product represents GDGT-5 through GDGT-8 (highly cyclized isomers).",
+      "biomarker_relevance": "Highly cyclized GDGTs found in hyperthermophilic archaea",
+      "metacyc_status": "not in MetaCyc; described in 2019"
+    },
+    {
+      "id": "SUPP-RXN-GMS",
+      "name": "GMGT synthesis",
+      "enzyme": "Gms",
+      "enzyme_name": "glycerol monoalkyl glycerol tetraether synthase",
+      "gene": "gms",
+      "ec_number": null,
+      "substrates": [
+        "SUPP-CPD-GDGT0"
+      ],
+      "products": [
+        "SUPP-CPD-GMGT"
+      ],
+      "mechanism": "radical SAM cross-linking of biphytanyl chains",
+      "reversible": false,
+      "references": [
+        "Garcia et al. 2024 PNAS",
+        "Li et al. 2024 Nature Communications"
+      ],
+      "notes": "Also known as H-GDGT bridge synthase (Hbs). Creates covalent bridge between two biphytanyl chains within GDGT.",
+      "metacyc_status": "not in MetaCyc; described in 2024"
+    },
+    {
+      "id": "SUPP-RXN-MA0127",
+      "name": "hydroxyarchaeol synthesis",
+      "enzyme": "MA0127",
+      "enzyme_name": "phytoene desaturase homolog / geranylgeranyl hydratase",
+      "gene": "ma0127",
+      "ec_number": null,
+      "substrates": [
+        "BIS-GERANYLGERANYLGLYCEROL-PHOSPHATE"
+      ],
+      "substrates_metacyc": [
+        "BIS-GERANYLGERANYLGLYCEROL-PHOSPHATE"
+      ],
+      "products": [
+        "SUPP-CPD-HYDROXYARCHAEOL"
+      ],
+      "products_metacyc_note": "hydroxyarchaeol not in MetaCyc",
+      "mechanism": "hydration of geranylgeranyl double bond",
+      "reversible": false,
+      "references": [
+        "Mori et al. 2015 Biochem Biophys Res Comm"
+      ],
+      "notes": "MA0127 hydratase acts on the unsaturated DGGGP precursor (BIS-GERANYLGERANYLGLYCEROL-PHOSPHATE), hydroxylating the 2',3'-double bond of one geranylgeranyl chain. The subsequent geranylgeranyl reductase (GGR) reduction to fully saturated hydroxyarchaeol is implicit. MA0127 orthologs found in Methanosarcinales, Methanococcales, some Methanobacteriales.",
+      "organisms": [
+        "Methanosarcina acetivorans",
+        "methanogens"
+      ],
+      "biomarker_relevance": "sn-2-hydroxyarchaeol and sn-3-hydroxyarchaeol are diagnostic for methanogenic archaea in sediments",
+      "metacyc_status": "not in MetaCyc; described in 2016"
+    },
+    {
+      "id": "SUPP-RXN-TES-MAC",
+      "name": "macrocyclic archaeol synthesis",
+      "enzyme": "Tes",
+      "enzyme_name": "tetraether synthase (intramolecular)",
+      "gene": "tes",
+      "ec_number": null,
+      "substrates": [
+        "CPD-15250"
+      ],
+      "substrates_metacyc": [
+        "CPD-15250"
+      ],
+      "products": [
+        "SUPP-CPD-MACROCYCLIC-ARCHAEOL"
+      ],
+      "products_metacyc_note": "macrocyclic archaeol not in MetaCyc",
+      "mechanism": "radical SAM intramolecular C-C bond formation",
+      "reversible": false,
+      "references": [
+        "Lloyd et al. 2022 Nature",
+        "Zeng et al. 2022 Nature Communications"
+      ],
+      "notes": "Same Tes enzyme as GDGT-0 synthesis (SUPP-RXN-TES) but acting intramolecularly on a single archaeol molecule to form a 36-membered macrocyclic ring. Side product of Tes alongside GDGT-0.",
+      "biomarker_relevance": "macrocyclic archaeol found in archaeal membranes, indicates Tes activity",
+      "metacyc_status": "not in MetaCyc; described in 2022"
+    },
+    {
+      "id": "SUPP-RXN-GMM",
+      "name": "GMGT methylation",
+      "enzyme": "Gmm",
+      "enzyme_name": "GMGT methyltransferase",
+      "gene": "gmm",
+      "ec_number": null,
+      "substrates": [
+        "SUPP-CPD-GMGT",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "products": [
+        "SUPP-CPD-ME-GMGT",
+        "ADENOSYL-HOMO-CYS"
+      ],
+      "products_metacyc_note": "methylated GMGT not in MetaCyc",
+      "mechanism": "radical SAM methylation",
+      "reversible": false,
+      "references": [
+        "Garcia et al. 2024 PNAS"
+      ],
+      "notes": "Gmm preferentially methylates GMGT substrates over GDGT substrates. Can produce mono-, di-, or tri-methylated GMGT. Simplified here as single methylation step.",
+      "organisms": [
+        "anaerobic archaea"
+      ],
+      "biomarker_relevance": "methylated GMGTs found in deep subsurface and hot spring environments",
+      "metacyc_status": "not in MetaCyc; described in 2024"
+    },
+    {
+      "id": "SUPP-RXN-TED",
+      "name": "GDGT desaturation",
+      "enzyme": "Ted",
+      "enzyme_name": "tetraether desaturase",
+      "gene": "ted",
+      "ec_number": null,
+      "substrates": [
+        "SUPP-CPD-GDGT0",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "products": [
+        "SUPP-CPD-GDGT-UNSAT",
+        "DADP",
+        "L-METHIONINE"
+      ],
+      "products_metacyc_note": "unsaturated GDGT not in MetaCyc",
+      "mechanism": "B12-radical SAM desaturation",
+      "reversible": false,
+      "references": [
+        "Garcia et al. 2025 bioRxiv (10.1101/2025.10.20.683597)"
+      ],
+      "notes": "B12-rSAM enzyme that anaerobically introduces double bonds in the saturated biphytanyl chains of GDGTs. In effect, this reverses the earlier saturation by geranylgeranyl reductase. Identified in Candidatus Bathyarchaeota B1_G15, validated by heterologous expression in M. acetivorans and T. kodakarensis. Genomically associated with Hgs.",
+      "organisms": [
+        "Candidatus Bathyarchaeota"
+      ],
+      "biomarker_relevance": "Intermediate in OH-GDGT biosynthesis pathway",
+      "metacyc_status": "not in MetaCyc; preprint 2025"
+    },
+    {
+      "id": "SUPP-RXN-HGS",
+      "name": "hydroxy-GDGT synthesis",
+      "enzyme": "Hgs",
+      "enzyme_name": "hydroxy-GDGT synthase (AttH-like hydratase)",
+      "gene": "hgs",
+      "ec_number": null,
+      "substrates": [
+        "SUPP-CPD-GDGT-UNSAT"
+      ],
+      "products": [
+        "SUPP-CPD-OH-GDGT"
+      ],
+      "products_metacyc_note": "OH-GDGT not in MetaCyc",
+      "mechanism": "hydration of double bond",
+      "reversible": false,
+      "references": [
+        "Garcia et al. 2025 bioRxiv (10.1101/2025.10.20.683597)"
+      ],
+      "notes": "Non-rSAM AttH-like hydratase that hydrates double bond(s) introduced by Ted to form OH-GDGTs. Genomically associated with Ted in Candidatus Bathyarchaeota B1_G15.",
+      "organisms": [
+        "Candidatus Bathyarchaeota",
+        "Thaumarchaeota"
+      ],
+      "biomarker_relevance": "OH-GDGTs are the basis of the RI-OH' sea surface temperature proxy, complementing TEX86",
+      "metacyc_status": "not in MetaCyc; preprint 2025"
+    },
+    {
+      "id": "SUPP-RXN-GDGT-METHYL",
+      "name": "GDGT methylation",
+      "enzyme": "GDGT methylase",
+      "enzyme_name": "B12-rSAM GDGT methyltransferase",
+      "gene": null,
+      "ec_number": null,
+      "substrates": [
+        "SUPP-CPD-GDGT0",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "products": [
+        "SUPP-CPD-ME-GDGT",
+        "ADENOSYL-HOMO-CYS"
+      ],
+      "products_metacyc_note": "methylated GDGT not in MetaCyc",
+      "mechanism": "B12-radical SAM methylation",
+      "reversible": false,
+      "references": [
+        "Garcia et al. 2025 bioRxiv (10.1101/2025.10.20.683597)"
+      ],
+      "notes": "Two B12-rSAM GDGT methylases with different substrate specificities identified in S. acidocaldarius and T. aggregans. Distinct from Gmm (which preferentially methylates GMGTs). GDGT methylation increases in response to membrane-destabilizing agents (penicillin G, hexanoic acid). Simplified as single reaction.",
+      "organisms": [
+        "Sulfolobus acidocaldarius",
+        "Thermococcus aggregans"
+      ],
+      "biomarker_relevance": "methylated GDGTs found in thermophilic archaea; methylation level responsive to environmental stress",
+      "metacyc_status": "not in MetaCyc; preprint 2025"
+    },
+    {
+      "_comment": "Triterpenoid reactions without a MetaCyc pathway (1 reaction)",
+      "_note": "This reaction is in MetaCyc but not assigned to a pathway; it is listed here so that it connects to the network."
+    },
+    {
+      "id": "SUPP-RXN-ISOARBORINOL",
+      "name": "isoarborinol synthesis",
+      "enzyme": "OSC (IAS / EUS)",
+      "enzyme_name": "oxidosqualene cyclase (isoarborinol synthase)",
+      "gene": "ias (plant) / osc (bacterial)",
+      "ec_number": "EC 5.4.99.-",
+      "substrates": [
+        "EPOXYSQUALENE"
+      ],
+      "substrates_metacyc": [
+        "EPOXYSQUALENE"
+      ],
+      "products": [
+        "CPD-15243"
+      ],
+      "products_metacyc_note": "isoarborinol is in MetaCyc as CPD-15243; reaction RXN-14392 is not assigned to a pathway",
+      "mechanism": "oxidosqualene cyclization (chair-boat-chair conformation) to pentacyclic arborane skeleton",
+      "reversible": false,
+      "references": [
+        "Banta et al. 2017 PNAS 114:245-250",
+        "Pearson et al. 2003 PNAS 100:15352-15357"
+      ],
+      "notes": "Two phylogenetically distinct OSCs catalyze this reaction: plant isoarborinol synthase (IAS, e.g. Oryza sativa) and bacterial eudoraenol synthase (EUS, Eudoraea adriatica). Both use 2,3-oxidosqualene as substrate via chair-boat-chair conformation. The network connection is the same for both enzymes (single-step cyclization from EPOXYSQUALENE), so the reaction is recorded once. MetaCyc has this reaction as RXN-14392, not assigned to a pathway.",
+      "organisms": [
+        "plants (Oryza sativa, Asteraceae)",
+        "bacteria (Eudoraea adriatica, Methylomicrobium alcaliphilum)"
+      ],
+      "biomarker_relevance": "Isoarborinol (arborane skeleton) preserved as molecular fossil in sedimentary rocks; previously attributed only to angiosperms, now known in marine bacteria (Banta et al. 2017)",
+      "metacyc_status": "in MetaCyc as RXN-14392, not assigned to a pathway"
+    },
+    {
+      "_comment": "Aromatic carotenoid biosynthesis (3 reactions)",
+      "_note": "For isorenieratene and okenone synthesis. The cyclization (cruA/cruB equivalent) is in MetaCyc as RXN1F-150/151."
+    },
+    {
+      "id": "SUPP-RXN-CRTU",
+      "name": "isorenieratene synthesis",
+      "enzyme": "CrtU",
+      "enzyme_name": "beta-carotene desaturase/aromatase",
+      "gene": "crtU",
+      "ec_number": null,
+      "substrates": [
+        "CPD1F-129"
+      ],
+      "substrates_metacyc": [
+        "CPD1F-129"
+      ],
+      "products": [
+        "SUPP-CPD-ISORENIERATENE"
+      ],
+      "products_metacyc_note": "isorenieratene not in MetaCyc (phi,phi-carotene with both rings aromatic)",
+      "mechanism": "desaturation and methyl group migration to form aromatic phi-rings on both ends",
+      "reversible": false,
+      "references": [
+        "Maresca et al. 2008 J Bacteriol"
+      ],
+      "organisms": [
+        "green sulfur bacteria",
+        "actinobacteria"
+      ],
+      "biomarker_relevance": "Isorenieratane - diagnostic for brown GSB, indicates deep photic zone euxinia",
+      "metacyc_status": "not in MetaCyc; MetaCyc RXN-10648 forms one chi ring only",
+      "note": "MetaCyc RXN-10648 produces beta,chi-carotene (CPD-11456) with one aromatic ring. Isorenieratene has both rings aromatized."
+    },
+    {
+      "id": "SUPP-RXN-CRUO",
+      "name": "okenone C-4 ketolation",
+      "enzyme": "CruO",
+      "enzyme_name": "carotenoid C-4 ketolase",
+      "gene": "cruO",
+      "ec_number": null,
+      "substrates": [
+        "CPD-11464"
+      ],
+      "substrates_metacyc": [
+        "CPD-11464"
+      ],
+      "products": [
+        "SUPP-CPD-OKENONE-PRECURSOR"
+      ],
+      "mechanism": "ketolation at C-4",
+      "reversible": false,
+      "references": [
+        "Vogl & Bryant 2011 J Biol Chem"
+      ],
+      "organisms": [
+        "purple sulfur bacteria (Chromatiaceae)"
+      ],
+      "notes": "Forms the characteristic chi-ring keto group",
+      "metacyc_status": "not in MetaCyc"
+    },
+    {
+      "id": "SUPP-RXN-CRUS",
+      "name": "okenone chi-ring formation",
+      "enzyme": "CruS",
+      "enzyme_name": "bifunctional 3,4-desaturase/C-2 ketolase",
+      "gene": "cruS",
+      "ec_number": null,
+      "substrates": [
+        "NEUROSPORENE",
+        "OXYGEN-MOLECULE"
+      ],
+      "substrates_metacyc": [
+        "NEUROSPORENE",
+        "OXYGEN-MOLECULE"
+      ],
+      "products": [
+        "SUPP-CPD-OKENONE"
+      ],
+      "mechanism": "desaturation and ketolation",
+      "reversible": false,
+      "references": [
+        "Vogl & Bryant 2012 Geobiology"
+      ],
+      "organisms": [
+        "purple sulfur bacteria"
+      ],
+      "biomarker_relevance": "Okenane - diagnostic for purple sulfur bacteria (Chromatiaceae), indicates shallow photic zone euxinia",
+      "metacyc_status": "not in MetaCyc"
+    },
+    {
+      "_comment": "C30 sterol biosynthesis (2 reactions)",
+      "_note": "Neoproterozoic biomarkers, not in MetaCyc. The substrate is isofucosterol (CPD-4127)."
+    },
+    {
+      "id": "SUPP-RXN-SMT3-ISOPROPYL",
+      "name": "24-isopropylcholesterol synthesis",
+      "enzyme": "SMT (third methylation)",
+      "enzyme_name": "sterol C-24 methyltransferase (third methylation)",
+      "gene": "smt2 (third methylation activity)",
+      "ec_number": "2.1.1.41",
+      "substrates": [
+        "CPD-4127",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "substrates_metacyc": [
+        "CPD-4127",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "products": [
+        "SUPP-CPD-24-ISOPROPYLCHOLESTEROL",
+        "ADENOSYL-HOMO-CYS"
+      ],
+      "mechanism": "C-24 methylation forming isopropyl group",
+      "reversible": false,
+      "references": [
+        "Gold et al. 2016 PNAS",
+        "Brown et al. 2023 Nat Comm",
+        "Love et al. 2009 Nature"
+      ],
+      "organisms": [
+        "demosponges",
+        "bacterial symbionts of sponges"
+      ],
+      "notes": "Adds methyl group to existing 24-ethylidene group to form 24-isopropyl. The stereochemistry yields the isopropyl (branched) configuration. Substrate is isofucosterol (CPD-4127), a C29 sterol.",
+      "biomarker_relevance": "24-isopropylcholestane is a Neoproterozoic biomarker attributed to demosponges, found in sediments back to ~635 Ma.",
+      "metacyc_status": "not in MetaCyc; sponge and symbiont pathway"
+    },
+    {
+      "id": "SUPP-RXN-SMT3-NPROPYL",
+      "name": "24-n-propylcholesterol synthesis",
+      "enzyme": "SMT (alternative stereochemistry)",
+      "enzyme_name": "sterol C-24 methyltransferase (n-propyl forming)",
+      "gene": "smt (alternative product)",
+      "ec_number": "2.1.1.41",
+      "substrates": [
+        "CPD-4127",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "substrates_metacyc": [
+        "CPD-4127",
+        "S-ADENOSYLMETHIONINE"
+      ],
+      "products": [
+        "SUPP-CPD-24-N-PROPYLCHOLESTEROL",
+        "ADENOSYL-HOMO-CYS"
+      ],
+      "mechanism": "C-24 methylation forming n-propyl group (linear configuration)",
+      "reversible": false,
+      "references": [
+        "Giner & Djerassi 1991 JOC",
+        "Giner et al. 2009 Lipids"
+      ],
+      "organisms": [
+        "pelagophyte algae (Aureococcus, Pelagococcus)"
+      ],
+      "notes": "Same substrate as isopropyl reaction but different stereochemistry yields n-propyl (linear) instead of isopropyl (branched). Distinguished from 24-isopropylcholesterol by GC-MS fragmentation patterns.",
+      "biomarker_relevance": "24-n-propylcholestane distinguishes pelagophyte algae from demosponges in Neoproterozoic-Cambrian biomarker records.",
+      "metacyc_status": "not in MetaCyc; algal pathway"
+    },
+    {
+      "_comment": "Triterpenoid biomarkers (1 reaction)"
+    },
+    {
+      "id": "SUPP-RXN-THS",
+      "name": "tetrahymanol synthesis from hopene (bacterial route)",
+      "enzyme": "Tetrahymanol synthase",
+      "enzyme_name": "hopene-tetrahymanol cyclase",
+      "gene": "ths (or equivalent)",
+      "ec_number": null,
+      "substrates": [
+        "HOP-2229-ENE",
+        "WATER"
+      ],
+      "substrates_metacyc": [
+        "HOP-2229-ENE",
+        "WATER"
+      ],
+      "products": [
+        "CPD-11533"
+      ],
+      "products_metacyc": [
+        "CPD-11533"
+      ],
+      "mechanism": "E-ring expansion converting 5-membered hopanoid E-ring to 6-membered gammacerane ring",
+      "reversible": false,
+      "references": [
+        "Kleemann et al. 1990 Journal of General Microbiology",
+        "Hartner et al. 2005 FEMS Microbiology Letters",
+        "Banta et al. 2015 PNAS (bacterial STC homologs)"
+      ],
+      "organisms": [
+        "Rhodopseudomonas palustris",
+        "Bradyrhizobium japonicum",
+        "some proteobacteria"
+      ],
+      "notes": "Alternative bacterial route to tetrahymanol via hopanoid intermediate. The eukaryotic route (SQUALENE → TETRAHYMANOL, EC 4.2.1.123) is already in MetaCyc. This bacterial route explains why tetrahymanol is found in some prokaryotes despite being classically associated with ciliates.",
+      "biomarker_relevance": "Gammacerane - biomarker for water column stratification, ciliates, and some bacteria.",
+      "metacyc_status": "not in MetaCyc; the eukaryotic route is in MetaCyc as EC 4.2.1.123"
+    },
+    {
+      "_comment": "Microbial sterol reduction (1 reaction)"
+    },
+    {
+      "id": "SUPP-RXN-COPROSTANOL",
+      "name": "coprostanol synthesis (microbial cholesterol reduction)",
+      "enzyme": "5β-reductase",
+      "enzyme_name": "cholesterol 5β-reductase",
+      "gene": "bacterial 5β-reductase",
+      "ec_number": null,
+      "substrates": [
+        "CHOLESTEROL"
+      ],
+      "substrates_metacyc": [
+        "CHOLESTEROL"
+      ],
+      "products": [
+        "CPD-21037"
+      ],
+      "products_metacyc_note": "MetaCyc compound CPD-21037 (coprostanol); the reaction is not in MetaCyc",
+      "mechanism": "reduction of Δ5 double bond to 5β-configuration",
+      "reversible": false,
+      "references": [
+        "Eyssen et al. 1973 European J Biochemistry",
+        "Freier et al. 1994 J Lipid Research",
+        "Bull et al. 2002 Organic Geochemistry"
+      ],
+      "organisms": [
+        "gut bacteria (Eubacterium coprostanoligenes, Bacteroides spp.)"
+      ],
+      "notes": "Produced by anaerobic gut bacteria. Reduction produces 5β-stanol configuration.",
+      "biomarker_relevance": "Coprostanol is a fecal biomarker used in environmental studies to trace sewage contamination. 5β-stanols vs 5α-stanols distinguish biogenic from diagenetic steranes.",
+      "metacyc_status": "not in MetaCyc; the compound is in MetaCyc, the reduction is not"
+    },
+    {
+      "_comment": "Green sulfur bacteria carotenoids (1 reaction)"
+    }
+  ]
+}

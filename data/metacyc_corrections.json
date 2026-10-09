@@ -1,0 +1,609 @@
+{
+  "reactions": [
+    {
+      "record_id": "NATIVE-RXN-19520-STATE",
+      "native_id": "RXN-19520",
+      "action": "exclude",
+      "finding": "CPD-1081 carries a 5alpha structure, so this reaction does not describe the 5beta coprostanone-to-coprostanol step. The supported conversions are recorded as literature connections.",
+      "conversions": [],
+      "sources": [
+        {
+          "doi": "10.64898/2025.12.29.696961",
+          "locator": "Results: Both 4- and 5-cholestenone intermediates; Figure 2E-F; Results: Both 4- and 5-cholestenone intermediates; Figure 2E-F; Biochemical characterization; Figure 2C-D; cofactor Results pp. 12-14; Figure S3C-D; Results: Both 4- and 5-cholestenone intermediates; Figure S4C; Revised ism pathway, Figure 4C; Discussion pp. 22-23; reverse-direction assay Figure 2E-F; Figure 4C; Kenny et al. Figure 3B-C tests the reverse oxidation"
+        },
+        {
+          "doi": "10.1016/j.chom.2020.05.013",
+          "locator": "Biochemical characterization, Figure 3A; purified-enzyme cofactor dependence described with Figure S2F; Figure 3B-C and accompanying biochemical-characterization Results"
+        }
+      ],
+      "table_reason": "Coprostanone record carries a 5α structure; supported steps recorded separately"
+    },
+    {
+      "record_id": "NATIVE-5ALPHA-REDUCTASE",
+      "native_id": "CHOLESTENONE-5-ALPHA-REDUCTASE-RXN",
+      "action": "retain",
+      "finding": "The 5alpha branch is a distinct reaction and is kept unchanged.",
+      "conversions": [],
+      "sources": [
+        {
+          "doi": "10.64898/2025.12.29.696961",
+          "locator": "Results: Both 4- and 5-cholestenone intermediates; Figure 2E-F; Results: Both 4- and 5-cholestenone intermediates; Figure 2E-F; Biochemical characterization; Figure 2C-D; cofactor Results pp. 12-14; Figure S3C-D; Results: Both 4- and 5-cholestenone intermediates; Figure S4C; Revised ism pathway, Figure 4C; Discussion pp. 22-23; reverse-direction assay Figure 2E-F; Figure 4C; Kenny et al. Figure 3B-C tests the reverse oxidation"
+        },
+        {
+          "doi": "10.1016/j.chom.2020.05.013",
+          "locator": "Biochemical characterization, Figure 3A; purified-enzyme cofactor dependence described with Figure S2F; Figure 3B-C and accompanying biochemical-characterization Results"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-TES",
+      "native_id": "RXN-23586",
+      "action": "retain",
+      "finding": "The generic phospholipid reaction has the correct compound class and multiplicity and is kept; the assays with specific substrates describe the same transformation.",
+      "sources": [
+        {
+          "doi": "10.1038/s41586-022-05120-2",
+          "locator": "PDF pages 3, 4, 5, 7, 17, 18; Activity/product results; GDGT-MAS activity assays; Extended Data Figs. 7 and 8"
+        },
+        {
+          "doi": "10.1038/s41467-022-29264-x",
+          "locator": "PDF pages 2, 3, 7; Figs. 1 and 2; lipid extraction acid hydrolysis"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-TES-MAC",
+      "native_id": "RXN-23585",
+      "action": "retain",
+      "finding": "The generic phospholipid reaction has the correct compound class and multiplicity and is kept; the assays with specific substrates describe the same transformation.",
+      "sources": [
+        {
+          "doi": "10.1038/s41586-022-05120-2",
+          "locator": "PDF pages 4, 7, 17, 18; Lipid I identification; intact assay; Extended Data Fig. 7e"
+        },
+        {
+          "doi": "10.1038/s41467-022-29264-x",
+          "locator": "PDF pages 2, 3, 7; macrocyclic archaeol core production by Maeo_0574, MA1486 and trace MA1114; acid extraction"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-HPNO",
+      "native_id": "RXN-13533",
+      "action": "replace",
+      "finding": "The formylhopane substrate and amino donor of this MetaCyc transamination are proposed; HpnO has not been assayed with them.",
+      "conversions": [],
+      "sources": [
+        {
+          "doi": "10.1111/j.1472-4669.2011.00314.x",
+          "locator": "PDF pp. 7-8, 11; Fig. 2 reactions 4-6 and Fig. 5",
+          "supports": "hpnO deletion/complementation, proposed formyl branch, ArgD homology and unmeasured formyl/ribosyl intermediates"
+        },
+        {
+          "doi": "10.1002/cbic.201500021",
+          "locator": "pp. 1764-1767; Schemes 1-2",
+          "supports": "ribosyl lactol/open-chain aldehyde relation and direct ribosyl->BHT reduction"
+        }
+      ],
+      "table_reason": "Formylhopane substrate and amino donor proposed, not assayed"
+    },
+    {
+      "record_id": "SUPP-RXN-HPNO",
+      "native_id": "RXN-13530",
+      "action": "replace",
+      "finding": "Reversible lactol/open-chain equilibrium, without oxidation and without an identified enzyme.",
+      "conversions": [
+        {
+          "id": "RIBOSYL-FORMYL-EQUILIBRIUM",
+          "connection_type": "conditional",
+          "inputs": [
+            "CPD-14523"
+          ],
+          "outputs": [
+            "CPD-14524"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Reversible intramolecular lactol opening (no oxidation or lactone hydrolysis).",
+            "type": "proposed_lactol_open_chain_equilibrium"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Individual open-chain fraction and equilibrium were not kinetically measured in these biosynthesis experiments.",
+              "status": "unresolved_in_experiments"
+            }
+          ]
+        },
+        {
+          "id": "FORMYL-RIBOSYL-EQUILIBRIUM",
+          "connection_type": "conditional",
+          "inputs": [
+            "CPD-14524"
+          ],
+          "outputs": [
+            "CPD-14523"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Reversible intramolecular lactol opening (no oxidation or lactone hydrolysis).",
+            "type": "proposed_lactol_open_chain_equilibrium"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Individual open-chain fraction and equilibrium were not kinetically measured in these biosynthesis experiments.",
+              "status": "unresolved_in_experiments"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "doi": "10.1111/j.1472-4669.2011.00314.x",
+          "locator": "PDF pp. 7-8, 11; Fig. 2 reactions 4-6 and Fig. 5",
+          "supports": "hpnO deletion/complementation, proposed formyl branch, ArgD homology and unmeasured formyl/ribosyl intermediates"
+        },
+        {
+          "doi": "10.1002/cbic.201500021",
+          "locator": "pp. 1764-1767; Schemes 1-2",
+          "supports": "ribosyl lactol/open-chain aldehyde relation and direct ribosyl->BHT reduction"
+        }
+      ],
+      "table_reason": "Reversible lactol/open-chain equilibrium; no oxidation or identified enzyme",
+      "single_reaction_test": {
+        "chemical_evidence": "Ribosyl/formyl interconversion is a reversible lactol/open-chain equilibrium, without oxidation or an identified enzyme; it is a conditional connection.",
+        "network_treatment": "conditional_literature_connection_only"
+      }
+    },
+    {
+      "record_id": "SUPP-RXN-CRUO",
+      "native_id": "RXN-16058",
+      "action": "replace",
+      "finding": "The conversion of thiothece-474 to okenone is proposed as a late CrtU step (not CruS); the electron acceptor and its coefficient are unknown.",
+      "conversions": [
+        {
+          "id": "CRTU-THIOTHECE-TO-OKENONE",
+          "connection_type": "conditional",
+          "inputs": [
+            "CPD-17302",
+            "UNRESOLVED-OKENONE-CRTU-ACCEPTOR"
+          ],
+          "outputs": [
+            "CPD-17304"
+          ],
+          "enzyme": "CrtU",
+          "evidence": {
+            "balance_checked": false,
+            "type": "proposed_native_order"
+          },
+          "unresolved": [
+            {
+              "role": "electron_acceptor",
+              "source_literal": "Electron acceptor and coefficients unidentified",
+              "status": "unidentified_participant"
+            },
+            {
+              "role": "reaction_order",
+              "source_literal": "CrtU may act earlier on gamma-carotene",
+              "status": "proposed_not_assayed"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "doi": "10.1074/jbc.M111.280131",
+          "locator": "pp. 38525-38526; Figs. 3, 5, 6 and 9A; Table 1",
+          "supports": "CrtC-generated hydroxylated substrates and CruO mono-/di-keto products; activity under anoxia; CrtF methylation is a distinct step"
+        },
+        {
+          "doi": "10.1111/j.1472-4669.2011.00297.x",
+          "locator": "pp. 207, 210-213; Figs. 2 and 6",
+          "supports": "chi and phi ring distinction and okenone pathway context"
+        }
+      ],
+      "table_reason": "Position of CrtU in the pathway and acceptor stoichiometry not established"
+    },
+    {
+      "record_id": "SUPP-RXN-HPNG",
+      "native_id": "RXN-13529",
+      "action": "replace",
+      "finding": "The MetaCyc HpnG reaction is a hydrolysis giving free ribosylhopane, which skips the phosphate-removal step; no reaction for that step is recorded.",
+      "conversions": [],
+      "reason": "The literature phosphorolysis connection (HPNG-PHOSPHOROLYSIS) represents HpnG; no phosphatase is added.",
+      "sources": [
+        {
+          "doi": "10.1002/cjoc.202400233",
+          "locator": "p. 2352; Fig. 3A-B and phosphate-vs-MOPS tests",
+          "supports": "adenine LC-HRMS, phosphate dependence and phosphoribosylhopane product"
+        }
+      ],
+      "table_reason": "Characterized HpnG requires phosphate and yields phosphoribosylhopane; no conversion to ribosylhopane is recorded",
+      "single_reaction_test": {
+        "chemical_evidence": "The HpnG hydrolysis equation is excluded under both criteria. The characterized phosphorolysis uses phosphate and gives adenine and phosphoribosylhopane; no phosphatase for the next step has been identified.",
+        "network_treatment": "excluded_both_criteria"
+      }
+    },
+    {
+      "record_id": "SUPP-RXN-RIBOSYL-TO-BHT",
+      "native_id": "RXN-13531",
+      "action": "annotate",
+      "finding": "Proposed reduction of formylhopane, distinct from the measured NADPH-dependent conversion of ribosylhopane; the electron donor is generic and the physiological partner unknown.",
+      "native_reaction_unchanged": true,
+      "native_stoichiometry_unchanged": true,
+      "pathway_fields_to_preserve": [
+        "PWY-7072"
+      ],
+      "physiological_equation_checked": false,
+      "sources": [
+        {
+          "doi": "10.1002/cbic.201500021",
+          "locator": "pp. 1765-1769; Table 2, Schemes 2-3, Fig. 1 and incubation methods",
+          "supports": "label transfer, NADPH preference, nonlabeled/boiled controls and native reduction prior to analytical acetylation"
+        },
+        {
+          "doi": "10.1111/j.1472-4669.2011.00314.x",
+          "locator": "PDF pp. 7-8, 11; Fig. 2 reactions 4-6 and Fig. 5",
+          "supports": "hpnO deletion/complementation, proposed formyl branch, ArgD homology and unmeasured formyl/ribosyl intermediates"
+        },
+        {
+          "doi": "10.1002/cbic.201500021",
+          "locator": "pp. 1764-1767; Schemes 1-2",
+          "supports": "ribosyl lactol/open-chain aldehyde relation and direct ribosyl->BHT reduction"
+        }
+      ],
+      "unresolved": [
+        {
+          "role": "source_qualification",
+          "source_literal": "Proposed reduction of formylhopane, distinct from the measured NADPH-dependent conversion of ribosylhopane; the electron donor is generic and the physiological partner unknown.",
+          "status": "unresolved_in_experiments"
+        }
+      ],
+      "table_reason": "Hypothetical elementary step with an unknown electron donor; also excluded in a separate test",
+      "single_reaction_test": {
+        "chemical_evidence": "The native formylhopane reductase has a hypothetical substrate assignment and unidentified physiological donor. It is distinct from the measured ribosylhopane/NADPH net conversion.",
+        "network_treatment": "removed_in_this_test"
+      }
+    },
+    {
+      "record_id": "SUPP-RXN-HPNH",
+      "native_id": "RXN-13528",
+      "action": "annotate",
+      "finding": "Adenosyl addition and the methionine product are measured; the physiological reducing partner and the electron and proton balance are unresolved.",
+      "native_reaction_unchanged": true,
+      "native_stoichiometry_unchanged": true,
+      "pathway_fields_to_preserve": [
+        "PWY-7072"
+      ],
+      "physiological_equation_checked": false,
+      "sources": [
+        {
+          "doi": "10.1002/anie.201911584",
+          "locator": "main assay, product NMR, and Scheme 1; pp. 271-274",
+          "supports": "diploptene -> (22R)-adenosylhopane with SAM/Fld/FNR/NADPH"
+        },
+        {
+          "doi": "10.1021/acs.biochem.1c00536",
+          "locator": "p. 2869 Fig. 3A-B; pp. 2871-2872 mechanistic discussion",
+          "supports": "simultaneous adenosylhopane and L-methionine measurement; unresolved physiological reducing partner"
+        },
+        {
+          "doi": "10.1021/acs.biochem.1c00536",
+          "locator": "Figs. S1 and S6; methionine and adenosylhopane HPLC time course",
+          "supports": "structural context and separate standards for the measured methionine and adenosylhopane products"
+        }
+      ],
+      "unresolved": [
+        {
+          "role": "source_qualification",
+          "source_literal": "Adenosyl addition and the methionine product are measured; the physiological reducing partner and the electron and proton balance are unresolved.",
+          "status": "unresolved_in_experiments"
+        }
+      ],
+      "table_reason": "Physiological reductant and full electron balance unresolved"
+    },
+    {
+      "record_id": "SUPP-RXN-HPNP",
+      "native_id": "RXN-13532",
+      "action": "annotate",
+      "finding": "Supported by genetic endpoints and a proposed cobalamin-dependent mechanism; the substrate, reaction order and physiological turnover are unresolved. The MetaCyc two-SAM equation is kept.",
+      "native_reaction_unchanged": true,
+      "native_stoichiometry_unchanged": true,
+      "pathway_fields_to_preserve": [
+        "PWY-7072"
+      ],
+      "physiological_equation_checked": false,
+      "sources": [
+        {
+          "doi": "10.1073/pnas.0912949107",
+          "locator": "pp. 8538-8539; Figs. 1-2 and combined SI Fig. S1/Table S6",
+          "supports": "six methylated end products including methylBHT disappear and return with hpnP"
+        },
+        {
+          "doi": "10.1073/pnas.2012357117",
+          "locator": "pp. 32998-33000; Fig. 3A and mechanism text",
+          "supports": "two-SAM/cobalamin mechanism explicitly proposed from growth/cofactor and domain evidence"
+        }
+      ],
+      "unresolved": [
+        {
+          "role": "source_qualification",
+          "source_literal": "Supported by genetic endpoints and a proposed cobalamin-dependent mechanism; the substrate, reaction order and physiological turnover are unresolved. The MetaCyc two-SAM equation is kept.",
+          "status": "unresolved_in_experiments"
+        }
+      ],
+      "table_reason": "Substrate, order and physiological turnover not established"
+    },
+    {
+      "record_id": "SUPP-RXN-HPNP",
+      "native_id": "RXN-24727",
+      "action": "annotate",
+      "finding": "Supported by genetic endpoints and a proposed cobalamin-dependent mechanism; the substrate, reaction order and physiological turnover are unresolved. The MetaCyc two-SAM equation is kept.",
+      "native_reaction_unchanged": true,
+      "native_stoichiometry_unchanged": true,
+      "pathway_fields_to_preserve": [
+        "RXN-13532"
+      ],
+      "physiological_equation_checked": false,
+      "sources": [
+        {
+          "doi": "10.1073/pnas.0912949107",
+          "locator": "pp. 8538-8539; Figs. 1-2 and combined SI Fig. S1/Table S6",
+          "supports": "six methylated end products including methylBHT disappear and return with hpnP"
+        },
+        {
+          "doi": "10.1073/pnas.2012357117",
+          "locator": "pp. 32998-33000; Fig. 3A and mechanism text",
+          "supports": "two-SAM/cobalamin mechanism explicitly proposed from growth/cofactor and domain evidence"
+        }
+      ],
+      "unresolved": [
+        {
+          "role": "source_qualification",
+          "source_literal": "Supported by genetic endpoints and a proposed cobalamin-dependent mechanism; the substrate, reaction order and physiological turnover are unresolved. The MetaCyc two-SAM equation is kept.",
+          "status": "unresolved_in_experiments"
+        }
+      ],
+      "table_reason": "Substrate, order and physiological turnover not established"
+    },
+    {
+      "record_id": "SUPP-RXN-CRTU",
+      "native_id": "RXN-19133",
+      "action": "annotate",
+      "finding": "Sequential aromatization is supported. The two-acceptor redox balance in MetaCyc is proposed in the sources; the physiological acceptor and complete redox equation are unknown.",
+      "native_reaction_unchanged": true,
+      "native_stoichiometry_unchanged": true,
+      "pathway_fields_to_preserve": [
+        "PWY-7938"
+      ],
+      "physiological_equation_checked": false,
+      "sources": [
+        {
+          "doi": "10.1016/S1388-1981(99)00075-X",
+          "locator": "pp. 59-63; Fig. 2 and Table 1",
+          "supports": "beta-carotene, beta-isorenieratene and isorenieratene series; crtU dependence"
+        },
+        {
+          "doi": "10.1128/AEM.00263-10",
+          "locator": "pp. 5204-5205; Figs. 3-4",
+          "supports": "heterologous CrtU-dependent isorenieratene with a minor beta-isorenieratene-like intermediate"
+        }
+      ],
+      "unresolved": [
+        {
+          "role": "source_qualification",
+          "source_literal": "Sequential aromatization is supported. The two-acceptor redox balance in MetaCyc is proposed in the sources; the physiological acceptor and complete redox equation are unknown.",
+          "status": "unresolved_in_experiments"
+        }
+      ],
+      "table_reason": "Physiological electron acceptor and complete redox equation unresolved"
+    },
+    {
+      "record_id": "SUPP-RXN-CRTU",
+      "native_id": "RXN-19134",
+      "action": "annotate",
+      "finding": "Sequential aromatization is supported. The two-acceptor redox balance in MetaCyc is proposed in the sources; the physiological acceptor and complete redox equation are unknown.",
+      "native_reaction_unchanged": true,
+      "native_stoichiometry_unchanged": true,
+      "pathway_fields_to_preserve": [
+        "PWY-7938",
+        "PWY-7941"
+      ],
+      "physiological_equation_checked": false,
+      "sources": [
+        {
+          "doi": "10.1016/S1388-1981(99)00075-X",
+          "locator": "pp. 59-63; Fig. 2 and Table 1",
+          "supports": "beta-carotene, beta-isorenieratene and isorenieratene series; crtU dependence"
+        },
+        {
+          "doi": "10.1128/AEM.00263-10",
+          "locator": "pp. 5204-5205; Figs. 3-4",
+          "supports": "heterologous CrtU-dependent isorenieratene with a minor beta-isorenieratene-like intermediate"
+        }
+      ],
+      "unresolved": [
+        {
+          "role": "source_qualification",
+          "source_literal": "Sequential aromatization is supported. The two-acceptor redox balance in MetaCyc is proposed in the sources; the physiological acceptor and complete redox equation are unknown.",
+          "status": "unresolved_in_experiments"
+        }
+      ],
+      "table_reason": "Physiological electron acceptor and complete redox equation unresolved"
+    }
+  ],
+  "literature_evidence_on_native_reactions": [
+    {
+      "record_id": "SUPP-RXN-CRTU",
+      "native_id": "RXN-19133",
+      "finding": "The aromatization reported in the sources is the step of this MetaCyc reaction; the reaction and its pathway fields are kept, with the physiological partner recorded as unresolved.",
+      "conversion_id": "CRTU-END-1",
+      "native_pathway_ids": [
+        "PWY-7938"
+      ],
+      "preserve_native_reaction_and_stoichiometry": true,
+      "preserve_native_occurrence_identity": true,
+      "recommendation": "The literature evidence is attached to the existing MetaCyc reaction; no second reaction is added for the same organic step.",
+      "relationship": "literature_evidence_for_same_metacyc_transformation",
+      "sources": [
+        {
+          "doi": "10.1016/S1388-1981(99)00075-X",
+          "locator": "pp. 59-63; Fig. 2 and Table 1",
+          "supports": "beta-carotene, beta-isorenieratene and isorenieratene series; crtU dependence"
+        },
+        {
+          "doi": "10.1128/AEM.00263-10",
+          "locator": "pp. 5204-5205; Figs. 3-4",
+          "supports": "heterologous CrtU-dependent isorenieratene with a minor beta-isorenieratene-like intermediate"
+        }
+      ],
+      "unresolved": [
+        {
+          "role": "electron_acceptor",
+          "source_literal": "The generic Acceptor of the MetaCyc reaction stands for the physiological electron acceptor, which is unidentified; the complete equation is unknown.",
+          "status": "unresolved_in_experiments"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-CRTU",
+      "native_id": "RXN-19134",
+      "finding": "The aromatization reported in the sources is the step of this MetaCyc reaction; the reaction and its pathway fields are kept, with the physiological partner recorded as unresolved.",
+      "conversion_id": "CRTU-END-2",
+      "native_pathway_ids": [
+        "PWY-7938",
+        "PWY-7941"
+      ],
+      "preserve_native_reaction_and_stoichiometry": true,
+      "preserve_native_occurrence_identity": true,
+      "recommendation": "The literature evidence is attached to the existing MetaCyc reaction; no second reaction is added for the same organic step.",
+      "relationship": "literature_evidence_for_same_metacyc_transformation",
+      "sources": [
+        {
+          "doi": "10.1016/S1388-1981(99)00075-X",
+          "locator": "pp. 59-63; Fig. 2 and Table 1",
+          "supports": "beta-carotene, beta-isorenieratene and isorenieratene series; crtU dependence"
+        },
+        {
+          "doi": "10.1128/AEM.00263-10",
+          "locator": "pp. 5204-5205; Figs. 3-4",
+          "supports": "heterologous CrtU-dependent isorenieratene with a minor beta-isorenieratene-like intermediate"
+        }
+      ],
+      "unresolved": [
+        {
+          "role": "electron_acceptor",
+          "source_literal": "The generic Acceptor of the MetaCyc reaction stands for the physiological electron acceptor, which is unidentified; the complete equation is unknown.",
+          "status": "unresolved_in_experiments"
+        }
+      ]
+    }
+  ],
+  "compounds": [
+    {
+      "action": "keep_compound_without_structure",
+      "finding": "The MetaCyc formula, InChI and systematic name specify Z-isofucosterol. The recorded SMILES (C29H52) is malformed and is not used for descriptors; the compound and MetaCyc RXN-4210 are kept.",
+      "compound_id": "CPD-4127",
+      "sources": [
+        {
+          "doi": null,
+          "locator": "UNIQUE-ID CPD-4127, lines 132711-132738"
+        },
+        {
+          "doi": "10.1038/s41467-023-37552-3",
+          "locator": "Figure 1; isotope product Results pp. 4-5"
+        }
+      ]
+    },
+    {
+      "action": "keep_compound_without_structure_or_synonym",
+      "finding": "The MetaCyc formula, InChI and systematic name specify C29 E-fucosterol. Its C30 propylidene synonym is incorrect, and its SMILES does not describe the complete molecule; the compound is kept as fucosterol.",
+      "compound_id": "CPD-22095",
+      "sources": [
+        {
+          "doi": null,
+          "locator": "UNIQUE-ID CPD-22095, lines 432302-432330"
+        },
+        {
+          "doi": "10.1038/s41467-023-37552-3",
+          "locator": "Figure 1; isotope product Results pp. 4-5"
+        }
+      ]
+    },
+    {
+      "action": "keep_panel_compound",
+      "finding": "The saturated panel compound is kept; it is distinct from the unsaturated assay products.",
+      "compound_id": "SUPP-CPD-24-ISOPROPYLCHOLESTEROL",
+      "sources": [
+        {
+          "doi": "10.1038/s41467-023-37552-3",
+          "locator": "Figures 1-2; Discussion pp. 5-6"
+        }
+      ]
+    },
+    {
+      "action": "keep_panel_compound_without_synonym",
+      "finding": "The saturated panel compound is kept; propylidenecholesterol is a different compound.",
+      "compound_id": "SUPP-CPD-24-N-PROPYLCHOLESTEROL",
+      "sources": [
+        {
+          "doi": "10.1021/ja00004a047",
+          "locator": "Fig. 3 p. 1387; product identity p. 1391"
+        },
+        {
+          "doi": "10.1002/cbdv.200800316",
+          "locator": "Table 6 and sterol identifications pp. 1125-1127"
+        }
+      ]
+    }
+  ],
+  "compound_aliases": [
+    {
+      "descriptor_structure_used": false,
+      "from": "SUPP-CPD-BETA-ISORENIERATENE",
+      "relationship": "same_named_chemical_state",
+      "sources": [
+        {
+          "doi": null,
+          "locator": "UNIQUE-ID CPD-20626, source lines 172159-172180"
+        },
+        {
+          "doi": "10.1016/S1388-1981(99)00075-X",
+          "locator": "pp. 59-63; Fig. 2 and Table 1",
+          "supports": "beta-carotene, beta-isorenieratene and isorenieratene series; crtU dependence"
+        },
+        {
+          "doi": "10.1128/AEM.00263-10",
+          "locator": "pp. 5204-5205; Figs. 3-4",
+          "supports": "heterologous CrtU-dependent isorenieratene with a minor beta-isorenieratene-like intermediate"
+        }
+      ],
+      "target_meaning_changed": false,
+      "to": "CPD-20626"
+    },
+    {
+      "descriptor_structure_used": false,
+      "from": "SUPP-CPD-5PRIME-DEOXYADENOSINE",
+      "relationship": "same_named_chemical_state",
+      "sources": [
+        {
+          "doi": null,
+          "locator": "UNIQUE-ID CH33ADO, source lines 335132-335167"
+        },
+        {
+          "doi": "10.1073/pnas.0912949107",
+          "locator": "pp. 8538-8539; Figs. 1-2 and combined SI Fig. S1/Table S6",
+          "supports": "six methylated end products including methylBHT disappear and return with hpnP"
+        },
+        {
+          "doi": "10.1073/pnas.2012357117",
+          "locator": "pp. 32998-33000; Fig. 3A and mechanism text",
+          "supports": "two-SAM/cobalamin mechanism explicitly proposed from growth/cofactor and domain evidence"
+        }
+      ],
+      "target_meaning_changed": false,
+      "to": "CH33ADO"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+# Rows and columns read from the two Supplementary Information workbooks of
+# Brocks et al. (2023), Nature 618, 767-773.
+#
+# Every row from data_start_row to the row before footer_row is read. A row
+# with both a sample label and an age is a sample record; a row with a label
+# only is an era label (if listed under era_labels) or a formation or basin
+# label, which applies to the sample rows that follow it. Each listed column
+# holds one fossil class. Columns with used: false hold the workbook's own
+# source-interpretation bins (stem, mixed or crown); they are kept in Table S5
+# but are not used in the analysis.
+#
+# Rows whose label is listed under standard_labels are analytical standards,
+# and rows listed under compilation_labels are values compiled from other
+# studies; neither is a geological sample of this compilation. Samples are
+# joined across the two workbooks only through sample_crosswalk.csv.
+#
+# Ages are kept as reported: exact values, closed ranges, values with an
+# uncertainty, one-sided bounds and approximate values are recorded as such;
+# no midpoint is substituted and no ordering of samples is constructed.
+# Abundances are compared only within one measurement group
+# (measurement_channel and denominator_group).
+
+standard_labels:
+  - AGSO Std
+compilation_labels:
+  - From Brocks et al. 2017, SI
+  - From Brocks et at 2017, SI
+  - Araras, van Maldegem et. al 2019
+
+workbooks:
+  - workbook_id: brocks_si1
+    file_name: brocks2023_SI1_MOESM4.xlsx
+    sheet_name: Sheet1
+    data_start_row: 6
+    footer_row: 155
+    sample_id_column: A
+    age_column: B
+    era_labels:
+      - Cenozoic
+      - Mesozoic
+      - Palaeozoic
+      - Ediacaran
+      - Cryogenian
+      - Tonian
+      - Mesoproterozoic
+      - Palaeoproterozoic
+    fossil_classes:
+      - {column: C, analyte_id: si1_mal_dal_bin_c, measurement_channel: si1_mal_dal, denominator_group: si1_mal_dal_reported, used: false}
+      - {column: D, analyte_id: si1_tas259_bin_d, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: E, analyte_id: si1_tas245_4mechol_bin_e, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: F, analyte_id: si1_tas231_chol_bin_f, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: G, analyte_id: si1_tas245_2_3mechol_bin_g, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: H, analyte_id: si1_tas245_4mechol_bin_h, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: I, analyte_id: si1_tas245_4mechol_bin_i, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: J, analyte_id: si1_tas231_chol_bin_j, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: K, analyte_id: si1_tas245_2_3mechol_bin_k, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: L, analyte_id: si1_mas253_chol_bin_l, measurement_channel: si1_mas253, denominator_group: si1_mas253_reported, used: false}
+      - {column: M, analyte_id: si1_tas231_erg_bin_m, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: N, analyte_id: si1_tas245_4meerg_bin_n, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: O, analyte_id: si1_tas231_erg_bin_o, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: P, analyte_id: si1_tas245_meerg_bin_p, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: Q, analyte_id: si1_mas253_erg_bin_q, measurement_channel: si1_mas253, denominator_group: si1_mas253_reported, used: false}
+      - {column: R, analyte_id: si1_tas231_stig_bin_r, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: S, analyte_id: si1_tas245_mestig_bin_s, measurement_channel: si1_tas, denominator_group: si1_all_tas_reported, used: false}
+      - {column: T, analyte_id: si1_mas253_stig_bin_t, measurement_channel: si1_mas253, denominator_group: si1_mas253_reported, used: false}
+      - {column: U, analyte_id: si1_aromatic_hopanoids, measurement_channel: si1_aromatic_hopanoids, denominator_group: si1_aromatic_hopanoids_reported, used: true}
+  - workbook_id: brocks_si2
+    file_name: brocks2023_SI2_MOESM5.xlsx
+    sheet_name: "S & H"
+    data_start_row: 6
+    footer_row: 203
+    sample_id_column: A
+    age_column: B
+    era_labels: []
+    fossil_classes:
+      - {column: C, analyte_id: si2_cholestanes, measurement_channel: si2_saturated_sterane_hopane_mrm, denominator_group: si2_chol_erg_stig_hops_sum, used: true}
+      - {column: D, analyte_id: si2_ergostanes, measurement_channel: si2_saturated_sterane_hopane_mrm, denominator_group: si2_chol_erg_stig_hops_sum, used: true}
+      - {column: E, analyte_id: si2_stigmastanes, measurement_channel: si2_saturated_sterane_hopane_mrm, denominator_group: si2_chol_erg_stig_hops_sum, used: true}
+      - {column: F, analyte_id: si2_hopanes, measurement_channel: si2_saturated_sterane_hopane_mrm, denominator_group: si2_chol_erg_stig_hops_sum, used: true}
+      - {column: H, analyte_id: si2_cyclosteranes, measurement_channel: si2_cyclosterane_mrm, denominator_group: si2_cyclosterane_chol_erg_stig_sum, used: true}

@@ -1,0 +1,4262 @@
+{
+  "compounds": [
+    {
+      "local_id": "CHOLEST-5-EN-3-ONE",
+      "chemical_state": "cholest-5-en-3-one; delta-5 ketone; steroid stereochemistry as drawn in Tinoco et al. Figure 4C",
+      "identity_status": "characterized_in_source"
+    },
+    {
+      "local_id": "5BETA-CHOLESTAN-3-ONE",
+      "chemical_state": "5beta-cholestan-3-one (coprostanone); cis A/B ring fusion; distinct from MetaCyc CPD-1081, which carries a 5alpha structure",
+      "identity_status": "characterized_in_source"
+    },
+    {
+      "local_id": "ISMB-PHYSIOLOGICAL-ELECTRON-DONOR",
+      "chemical_state": "unidentified physiological low-potential electron donor for IsmB; molecular identity and stoichiometry unresolved",
+      "identity_status": "unresolved_physiological_electron_donor"
+    },
+    {
+      "local_id": "ISMB-OXIDIZED-ELECTRON-DONOR",
+      "chemical_state": "oxidized counterpart of unidentified physiological IsmB electron donor; molecular identity and stoichiometry unresolved",
+      "identity_status": "unresolved_physiological_electron_donor"
+    },
+    {
+      "local_id": "CULTURE-KETONE-REDUCTION-DONOR",
+      "chemical_state": "unidentified electron donor for observed culture conversion of 5beta-coprostanone to coprostanol; enzyme and cofactor unresolved in this assay",
+      "identity_status": "unresolved_culture_reduction_donor"
+    },
+    {
+      "local_id": "CULTURE-KETONE-REDUCTION-ACCEPTOR",
+      "chemical_state": "oxidized counterpart of unidentified culture ketone-reduction donor; molecular identity and stoichiometry unresolved",
+      "identity_status": "unresolved_culture_reduction_donor"
+    },
+    {
+      "local_id": "ISMA-KETONE-OXIDATION-ACCEPTOR",
+      "chemical_state": "NAD+ or NADP+, unresolved; the coprostanol oxidation assay contained both",
+      "identity_status": "unresolved_assay_cofactor_choice"
+    },
+    {
+      "local_id": "ISMA-KETONE-OXIDATION-REDUCED-ACCEPTOR",
+      "chemical_state": "NADH or NADPH, the reduced counterpart in the coprostanol oxidation assay",
+      "identity_status": "unresolved_assay_cofactor_choice"
+    },
+    {
+      "local_id": "ARCH-AG-SATURATED-PG",
+      "chemical_state": {
+        "identity_status": "intact_lipid_defined_in_source",
+        "description": "archaetidylglycerol, two saturated phytanyl chains, intact phosphoglycerol headgroup",
+        "formula_derivation": "One H added to source-reported singly deprotonated ion formula",
+        "formula_source": "Lloyd et al. 2022, pages 3-4 and 17; Extended Data Fig. 7",
+        "ion_formula_basis": "derived from AG structure and two-H difference from reported macro-AG formula",
+        "mass_status": "ion m/z reported in the source",
+        "molecular_weight": null,
+        "neutral_formula": "C46H95O8P",
+        "observed_ion_charge": -1,
+        "observed_ion_formula": "C46H94O8P",
+        "observed_ion_type": "[M-H]-",
+        "observed_mz": 805.6696,
+        "scope": "family_not_exact_molecule"
+      },
+      "identity_status": "intact_lipid_defined_in_source"
+    },
+    {
+      "local_id": "ARCH-MACRO-AG-PG",
+      "chemical_state": {
+        "identity_status": "intact_lipid_defined_in_source",
+        "description": "macrocyclic archaetidylglycerol retaining one phosphoglycerol headgroup",
+        "formula_derivation": "One H added to source-reported singly deprotonated ion formula",
+        "formula_source": "Lloyd et al. 2022, pages 3-4 and 17; Extended Data Fig. 7",
+        "ion_formula_basis": "reported ion formula",
+        "mass_status": "ion m/z reported in the source",
+        "molecular_weight": null,
+        "neutral_formula": "C46H93O8P",
+        "observed_ion_charge": -1,
+        "observed_ion_formula": "C46H92O8P",
+        "observed_ion_type": "[M-H]-",
+        "observed_mz": 803.6509,
+        "scope": "family_not_exact_molecule"
+      },
+      "identity_status": "intact_lipid_defined_in_source"
+    },
+    {
+      "local_id": "ARCH-GTGT-BIS-PG",
+      "chemical_state": {
+        "identity_status": "intact_lipid_defined_in_source",
+        "description": "glycerol trialkyl glycerol tetraether with one biphytanyl and two phytanyl chains, two phosphoglycerol headgroups",
+        "formula_derivation": "One H added to source-reported singly deprotonated ion formula",
+        "formula_source": "Lloyd et al. 2022, pages 3-4 and 17; Extended Data Fig. 7",
+        "ion_formula_basis": "reported ion formula",
+        "mass_status": "ion m/z reported in the source",
+        "molecular_weight": null,
+        "neutral_formula": "C92H188O16P2",
+        "observed_ion_charge": -1,
+        "observed_ion_formula": "C92H187O16P2",
+        "observed_ion_type": "[M-H]-",
+        "observed_mz": 1610.3293,
+        "scope": "family_not_exact_molecule"
+      },
+      "identity_status": "intact_lipid_defined_in_source"
+    },
+    {
+      "local_id": "ARCH-GDGT0-BIS-PG",
+      "chemical_state": {
+        "identity_status": "intact_lipid_defined_in_source",
+        "description": "acyclic GDGT with two biphytanyl chains and two intact phosphoglycerol headgroups",
+        "formula_derivation": "One H added to source-reported singly deprotonated ion formula",
+        "formula_source": "Lloyd et al. 2022, pages 3-4 and 17; Extended Data Fig. 7",
+        "ion_formula_basis": "reported ion formula",
+        "mass_status": "ion m/z reported in the source",
+        "molecular_weight": null,
+        "neutral_formula": "C92H186O16P2",
+        "observed_ion_charge": -1,
+        "observed_ion_formula": "C92H185O16P2",
+        "observed_ion_type": "[M-H]-",
+        "observed_mz": 1608.3141,
+        "scope": "family_not_exact_molecule"
+      },
+      "identity_status": "intact_lipid_defined_in_source"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-TES-PHYSIO-DONOR",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Physiological two-electron donor; the assay used Ti-citrate as reductant",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "electron_donor"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-TES-PHYSIO-DONOR-OXIDIZED",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Oxidized counterpart of the unspecified physiological Tes donor",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "oxidized_donor"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-HYDRATED-DGGGP-GLYCEROL",
+      "chemical_state": {
+        "description": "sn-2,3-di-O-geranylgeranylglyceryl phosphoglycerol hydrated at one chain's 2-prime,3-prime double bond, 3-prime hydroxyl, seven remaining double bonds",
+        "headgroup": "phosphoglycerol retained",
+        "hydrated_chain": "sn-2 or sn-3 unresolved",
+        "hydroxyl_site": "3-prime",
+        "remaining_double_bonds": 7,
+        "scope": "family_not_exact_molecule"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-GMGT0-CORE-MOGMS",
+      "chemical_state": {
+        "bridge_position": "not established in this assay",
+        "description": "acyclic core glycerol monoalkyl glycerol tetraether with an inter-biphytanyl C-C bridge",
+        "extra_methyls": 0,
+        "headgroups": "none, free core directly assayed",
+        "scope": "family_not_exact_molecule",
+        "rings": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-GMS-SAM-TURNOVER",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "SAM is required in the purified Gms assay; its turnover coefficient is not measured",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "sam_turnover"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-GMS-PHYSIO-DONOR",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Physiological reductant for Gms; the assay used dithionite",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "electron_donor"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-GMS-SAM-REDOX-PRODUCTS",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Unmeasured SAM cleavage and native donor-oxidation coproduct set",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "coproducts"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-FAMILY-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": 0,
+        "extra_methyl_count": 0,
+        "hydroxyl_count": 0,
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-GDGT-C7-RINGS1TO4",
+      "chemical_state": {
+        "C3_ring_count": 0,
+        "C7_ring_counts": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": 0,
+        "extra_methyl_count": 0,
+        "hydroxyl_count": 0,
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-GDGT-C3-RINGS1OR2",
+      "chemical_state": {
+        "C3_ring_counts": [
+          1,
+          2
+        ],
+        "C7_ring_count": 0,
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": 0,
+        "extra_methyl_count": 0,
+        "hydroxyl_count": 0,
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-GDGT-C7-C3-CYCLIZED",
+      "chemical_state": {
+        "C3_rings": "present",
+        "C7_rings": "present",
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "lipid": "GDGT",
+        "observed_combined_ring_counts": "up to 8",
+        "scope": "family_not_exact_molecule",
+        "ring_placement_isomers": "not individually resolved"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-CYCLIZATION-SAM-BALANCE",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "SAM participation inferred from the radical SAM enzyme family; turnover stoichiometry not measured (cyclization)",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "sam_turnover"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-CYCLIZATION-REDOX-INPUT",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Unidentified physiological redox partners of the cyclization",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "redox_partner"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-CYCLIZATION-COPRODUCT-SET",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Unmeasured coproducts of SAM, methyl donor and redox partners of the cyclization",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "coproducts"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-CYCLIZATION-HEADGROUP-COMPATIBILITY",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Native headgroups in the expression study are unresolved; lipids with the same core may carry different headgroups",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "biochemical_headgroup"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-FAMILY-GDGT-C7-1",
+      "chemical_state": {
+        "C3_ring_count": 0,
+        "C7_ring_count": 1,
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "extra_methyl_count": 0,
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_placement_isomers": "not individually resolved"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-GDGT-C7-2",
+      "chemical_state": {
+        "C3_ring_count": 0,
+        "C7_ring_count": 2,
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "extra_methyl_count": 0,
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_placement_isomers": "not individually resolved"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-GDGT-C7-3",
+      "chemical_state": {
+        "C3_ring_count": 0,
+        "C7_ring_count": 3,
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "extra_methyl_count": 0,
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_placement_isomers": "not individually resolved"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-GDGT-C7-4",
+      "chemical_state": {
+        "C3_ring_count": 0,
+        "C7_ring_count": 4,
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "extra_methyl_count": 0,
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_placement_isomers": "not individually resolved"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-GMS-EXPRESSION-SAM-BALANCE",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "SAM participation inferred from the radical SAM enzyme family; turnover stoichiometry not measured (Gms expression)",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "sam_turnover"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-GMS-EXPRESSION-REDOX-INPUT",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Unidentified physiological redox partners of the Gms expression products",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "redox_partner"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-GMS-EXPRESSION-COPRODUCT-SET",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Unmeasured coproducts of SAM, methyl donor and redox partners of the Gms expression products",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "coproducts"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-GMS-EXPRESSION-HEADGROUP-COMPATIBILITY",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Native headgroups in the expression study are unresolved; lipids with the same core may carry different headgroups",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "biochemical_headgroup"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-FAMILY-GMGT0a",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "extra_methyl_count": 0,
+        "isomer_absolute_structure": "not resolved",
+        "isomer_label": "a",
+        "lipid": "GMGT",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-GMGT0b",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "extra_methyl_count": 0,
+        "isomer_absolute_structure": "not resolved",
+        "isomer_label": "b",
+        "lipid": "GMGT",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "SAM participation inferred from the radical SAM enzyme family; turnover stoichiometry not measured (methylation)",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "sam_turnover"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Unidentified physiological redox partners of the methylation",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "redox_partner"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Unmeasured coproducts of SAM, methyl donor and redox partners of the methylation",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "coproducts"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Native headgroups in the expression study are unresolved; lipids with the same core may carry different headgroups",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "biochemical_headgroup"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Methyl donor and full B12/rSAM turnover chemistry are unmeasured in the genetic studies",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "methyl_donor"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-FAMILY-ME-GMGT0a",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "isomer_label": "a",
+        "lipid": "GMGT",
+        "methyl_count_qualifications": "a: mono plus trace di; b: mono/di plus trace tri",
+        "methyl_sites": "unknown",
+        "observed_extra_methyl_counts": [
+          1,
+          2
+        ],
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-ME-GMGT0b",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "isomer_label": "b",
+        "lipid": "GMGT",
+        "methyl_count_qualifications": "a: mono plus trace di; b: mono/di plus trace tri",
+        "methyl_sites": "unknown",
+        "observed_extra_methyl_counts": [
+          1,
+          2,
+          3
+        ],
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-ME1-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "extra_methyl_count": 1,
+        "lipid": "GDGT",
+        "methyl_sites": "unknown",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-ME2-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "extra_methyl_count": 2,
+        "lipid": "GDGT",
+        "methyl_sites": "unknown",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-PGM-ME3TO7-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "lipid": "GDGT",
+        "methyl_sites": "unknown",
+        "observed_extra_methyl_counts": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "qualifiers": "3/4 robust; induced penta isomers and trace hexa/hepta",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-CGM-CYCLIZED-GDGT2TO6",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "extra_methyl_count": 0,
+        "lipid": "GDGT",
+        "observed_ring_counts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "scope": "family_not_exact_molecule",
+        "ring_topology": "ring topology of the family in the source host"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-CGM-METHYLATED-CYCLIZED-GDGT",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "lipid": "GDGT",
+        "methyl_count_observations": "GDGT-2/3 low methylation; GDGT-4..6 mono/di; GDGT-4 tri in GrsB-deletion overexpression",
+        "methyl_sites": "unknown",
+        "observed_ring_counts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "scope": "family_not_exact_molecule"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-CGM-ME1-GDGT-C7-4",
+      "chemical_state": {
+        "C3_ring_count": 0,
+        "C7_ring_count": 4,
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "extra_methyl_count": 1,
+        "lipid": "GDGT",
+        "methyl_sites": "unknown",
+        "scope": "family_not_exact_molecule",
+        "ring_placement_isomers": "not individually resolved"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-CGM-ME2-GDGT-C7-4",
+      "chemical_state": {
+        "C3_ring_count": 0,
+        "C7_ring_count": 4,
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "extra_methyl_count": 2,
+        "lipid": "GDGT",
+        "methyl_sites": "unknown",
+        "scope": "family_not_exact_molecule",
+        "ring_placement_isomers": "not individually resolved"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-CGM-ME3-GDGT-C7-4",
+      "chemical_state": {
+        "C3_ring_count": 0,
+        "C7_ring_count": 4,
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "extra_methyl_count": 3,
+        "lipid": "GDGT",
+        "methyl_sites": "unknown",
+        "scope": "family_not_exact_molecule",
+        "ring_placement_isomers": "not individually resolved"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-PGM-METHYLATED-CYCLIZED-GDGT1TO4",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "lipid": "GDGT",
+        "methyl_counts": "measured methylated family; individual pairings unresolved",
+        "methyl_sites": "unknown",
+        "observed_ring_counts": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "scope": "family_not_exact_molecule"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-ARCHAEOL",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": 0,
+        "extra_methyl_count": 0,
+        "lipid": "archaeol",
+        "scope": "family_not_exact_molecule"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-PGM-ME-ARCHAEOL",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "lipid": "archaeol",
+        "methyl_sites": "unknown",
+        "observed_extra_methyl_counts": [
+          1,
+          2
+        ],
+        "scope": "family_not_exact_molecule"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-DESATURATION-SAM-BALANCE",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "SAM participation inferred from the radical SAM enzyme family; turnover stoichiometry not measured (desaturation)",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "sam_turnover"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-DESATURATION-REDOX-INPUT",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Unidentified physiological redox partners of the desaturation",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "redox_partner"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-DESATURATION-COPRODUCT-SET",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Unmeasured coproducts of SAM, methyl donor and redox partners of the desaturation",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "coproducts"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-DESATURATION-HEADGROUP-COMPATIBILITY",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Native headgroups in the expression study are unresolved; lipids with the same core may carry different headgroups",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "biochemical_headgroup"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-FAMILY-TED-UNS1TO4-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "chromatographic_labels": "Ted-associated Uns2a, distinct from native Uns2b",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_positions": "unresolved",
+        "hydroxyl_count": 0,
+        "lipid": "GDGT",
+        "observed_double_bond_counts": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-TED-UNS1-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": 1,
+        "double_bond_position": "unknown",
+        "hydroxyl_count": 0,
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-TED-UNS2a-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": 2,
+        "hydroxyl_count": 0,
+        "isomer": "Ted-associated a, exact sites unknown",
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-TED-UNS3-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": 3,
+        "double_bond_position": "unknown",
+        "hydroxyl_count": 0,
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-TED-UNS4-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": 4,
+        "double_bond_position": "unknown",
+        "hydroxyl_count": 0,
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-OH-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": 0,
+        "hydroxyl_count": 1,
+        "hydroxyl_site": "not specified",
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-DIOH-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": 0,
+        "hydroxyl_count": 2,
+        "hydroxyl_sites": "not specified",
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-TED-UNS-HO1-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_positions": "unresolved",
+        "hydroxyl_count": 1,
+        "lipid": "GDGT",
+        "observed_double_bond_counts": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-TED-UNS-HO2-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_positions": "unresolved",
+        "hydroxyl_count": 2,
+        "lipid": "GDGT",
+        "observed_double_bond_counts": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-NATIVE-UNS6-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": 6,
+        "double_bond_positions": "native T. kodakarensis distribution; exact isomers unresolved",
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-TED-UNS7-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": 7,
+        "double_bond_positions": "six native plus one proposed Ted alkene",
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-FAMILY-TED-UNS-ARCHAEOL",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": "unresolved count distribution",
+        "double_bond_positions": "distinct from the native unsaturated precursor pattern",
+        "lipid": "archaeol",
+        "scope": "family_not_exact_molecule"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "ARCH-UNRESOLVED-HGS-SUBSTRATE-MECHANISM",
+      "chemical_state": {
+        "identity_status": "unresolved",
+        "description": "Hgs substrate identity, native headgroup and direct water incorporation not assayed",
+        "molecular_stoichiometry": "unknown_not_one",
+        "node_role": "unresolved_requirement",
+        "scope": "family_not_exact_molecule",
+        "requirement_role": "substrate_and_mechanism"
+      },
+      "identity_status": "unresolved"
+    },
+    {
+      "local_id": "ARCH-FAMILY-HGS-OH-UNS6-GDGT0",
+      "chemical_state": {
+        "biochemical_headgroups": "unresolved",
+        "description": "Archaeal lipid family as resolved in the source",
+        "double_bond_count": 6,
+        "hydroxyl_count": 1,
+        "hydroxyl_site": "proposed Ted alkene hydration site, unknown",
+        "lipid": "GDGT",
+        "scope": "family_not_exact_molecule",
+        "ring_count": 0
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "SUPP-CPD-1-1PRIME-DIHYDROXYLYCOPENE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "1,1'-dihydroxylycopene (hydrated ends)",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-1-1PRIME-DIHYDROXYNEUROSPORENE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "1,1'-dihydroxyneurosporene",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-1-HYDROXYLYCOPENE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "1-hydroxylycopene (one hydrated end)",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-1PRIME-HYDROXY-GAMMA-CAROTENE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "1'-hydroxy-gamma-carotene",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-1PRIME-HYDROXYDEMETHYLSPHEROIDENONE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "1'-hydroxydemethylspheroidenone",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-3METHYL-AMINOBACTERIOHOPANEPENTOL",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "3-methylaminobacteriohopanepentol",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-3METHYL-AMINOBACTERIOHOPANETETROL",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "3-methylaminobacteriohopanetetrol",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-4-4PRIME-DIKETO-1-1PRIME-DIHYDROXYLYCOPENE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "4,4'-diketo-1,1'-dihydroxylycopene",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-4KETO-1-1PRIME-DIHYDROXYLYCOPENE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "4-keto-1,1'-dihydroxylycopene",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-4PRIME-KETO-1PRIME-HYDROXY-GAMMA-CAROTENE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "1'-hydroxy-1',2'-dihydro-beta,psi-caroten-4'-one (unmethylated keto intermediate)",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-5PRIME-DEOXYADENOSINE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "5'-deoxyadenosine",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-AMINOBACTERIOHOPANEPENTOL",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "aminobacteriohopanepentol",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-AMINOBACTERIOHOPANETETROL",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "aminobacteriohopanetetrol",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-BETA-ISORENIERATENE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "beta-isorenieratene (one beta end, one phi end)",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-BHT-35O-AMINO-CYCLITOL",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "C35-O amino-carbapseudopentose ether of BHT; full stereochemical resolution unspecified",
+        "role": null
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "SUPP-CPD-BHT-35O-BETA-D-GLCN",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "C35-O-beta-D-glucosaminyl BHT; named constitutional state without a full InChI",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-BHT-35O-BETA-D-GLCNAC",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "Proposed C35-O-beta-D-N-acetylglucosaminyl BHT; native acetyl state unconfirmed",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-DEMETHYLSPHEROIDENONE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "demethylspheroidenone",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-GAMMA-CAROTENE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "gamma-carotene (one beta ring and one psi end)",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "SUPP-CPD-MONOHYDROXYNEUROSPORENE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "mono-hydroxyneurosporene substrate fraction (1 and/or 1' end; not uniquely resolved)",
+        "role": null
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "UNRESOLVED-CRTU-OXIDIZED-ELECTRON-ACCEPTOR",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "Physiological oxidized redox partner for the second aromatic end",
+        "role": "electron_acceptor"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "UNRESOLVED-CRUO-OXYGEN-ATOM-SOURCE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "Oxygen source other than O2; water suggested, not traced with isotopes",
+        "role": "oxygen_atom_source"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "UNRESOLVED-CRUO-REDOX-PARTNER",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "Ketolation redox partner and stoichiometry",
+        "role": "redox_partner"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "UNRESOLVED-CRUS-ELECTRON-PARTNER",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "Complete ketolation/desaturation electron delivery and O2 stoichiometry",
+        "role": "electron_delivery"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "UNRESOLVED-HPNH-REDUCING-PARTNER",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "Physiological reducing partner; assay used Fld/FNR/NADPH",
+        "role": "electron_donor"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "UNRESOLVED-HPNJ-ELECTRON-DELIVERY",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "Proposed radical-SAM electron delivery, not directly assayed",
+        "role": "electron_delivery"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "UNRESOLVED-HPNJ-SAM-CYCLING",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "Proposed SAM involvement, consumption versus regeneration unknown",
+        "role": "catalytic_requirement"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "UNRESOLVED-HPNP-REDUCING-PARTNER",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "Physiological reductant and cobalamin cycling for proposed mechanism",
+        "role": "electron_donor"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "UNRESOLVED-HPNR-REDUCING-PARTNER",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "Physiological reductant and cobalamin cycling for proposed mechanism",
+        "role": "electron_donor"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "UNRESOLVED-OKENONE-CRTU-ACCEPTOR",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "Physiological oxidized electron acceptor for proposed thiothece-474 aromatic-end conversion",
+        "role": "electron_acceptor"
+      },
+      "identity_status": "unresolved_family"
+    },
+    {
+      "local_id": "SUPP-CPD-PHOSPHORIBOSYLHOPANE",
+      "chemical_state": {
+        "analytical_derivative": false,
+        "name": "phosphoribosylhopane",
+        "role": null
+      },
+      "identity_status": "defined_in_source"
+    },
+    {
+      "local_id": "24-ISOPROPYLCHOLESTA-5-23-DIENOL",
+      "chemical_state": "C30 sterol with side-chain delta23(24); NMR-detected minor product",
+      "identity_status": "defined_in_source",
+      "evidence": "In the unlabeled product C24 carries two identical isopropyl substituents, so no E/Z descriptor applies to the delta23 double bond. The source's Z-isopropyl label marks which of those groups carries the isotope."
+    },
+    {
+      "local_id": "24-ISOPROPYLCHOLESTA-5-24-DIENOL",
+      "chemical_state": "C30 sterol with side-chain delta24(25); no C24 tetrahedral stereocenter",
+      "identity_status": "defined_in_source",
+      "evidence": "A separate assay product, distinct from the delta25 product and the saturated target. The Z-vinylic methyl label gives the isotope position."
+    },
+    {
+      "local_id": "24S-24-ISOPROPYLCHOLESTA-5-25-DIENOL",
+      "chemical_state": "C30 sterol with side-chain delta25(26) and C24S configuration",
+      "identity_status": "defined_in_source",
+      "evidence": "C24S assayed product; the C24R comparator was not detected in the two isotope/NMR-tested SMTs."
+    },
+    {
+      "local_id": "E-24-PROPYLIDENECHOLESTEROL",
+      "chemical_state": "C30 sterol with side-chain delta24(28)",
+      "identity_status": "defined_in_source",
+      "evidence": "Product identified in Giner and Djerassi (1991), Figure 3 and Methods; the Summary states E geometry. Represented separately from MetaCyc CPD-22095, whose structure is C29 fucosterol."
+    },
+    {
+      "local_id": "SUPP-CPD-CODISTEROL-EPICODISTEROL",
+      "chemical_state": "C28 sterol delta5/delta25 side-chain methylation product; (epi)codisterol family, C24 assignment unresolved",
+      "identity_status": "unresolved_family",
+      "evidence": "Assayed family identified by GC-MS; C24 configuration unresolved; distinct from 24-methylenecholesterol."
+    },
+    {
+      "local_id": "SUPP-CPD-EPICLEROSTEROL",
+      "chemical_state": "C29 delta5/delta25 sterol; epiclerosterol stereoisomer assigned by isotope/NMR assay comparison",
+      "identity_status": "defined_in_source",
+      "evidence": "Epiclerosterol (clerosterol absent) in the Aplysina JGIcombinedJ30088_1000083511 and Chlamydiae 2619789262 assays; other Fig. 2 occurrences have no stereochemical assignment."
+    }
+  ],
+  "records": [
+    {
+      "record_id": "SUPP-RXN-COPROSTANOL",
+      "finding": "Enzyme assays and culture-feed experiments distinguish the delta-4, delta-5 and 5beta ketones. The proposed forward IsmA steps are conditional connections, and the electron donors are unidentified.",
+      "conversions": [
+        {
+          "id": "ISMA-CHOLESTEROL-OXIDATION-OBSERVED-DELTA4",
+          "connection_type": "supported",
+          "inputs": [
+            "CHOLESTEROL",
+            "NADP"
+          ],
+          "outputs": [
+            "CPD-323",
+            "NADPH",
+            "PROTON"
+          ],
+          "enzyme": "IsmA (ECOP170)",
+          "evidence": {
+            "connection_type": "supported",
+            "inputs": [
+              "CHOLESTEROL",
+              "NADP"
+            ],
+            "outputs": [
+              "CPD-323",
+              "NADPH",
+              "PROTON"
+            ],
+            "enzyme": "IsmA (ECOP170)",
+            "evidence": "Cholesterol oxidation to the detected delta-4 ketone; purified enzyme depends on NADP+ rather than NAD+.",
+            "evidence_type": "assayed_net_conversion",
+            "locator": "Biochemical characterization, Figure 3A; purified-enzyme cofactor dependence described with Figure S2F",
+            "qualifications": [
+              "The delta-5 ketone may form as a transient intermediate before the detected delta-4 product.",
+              "The net conversion includes any isomerization under the assay conditions; no separate isomerase step was characterized."
+            ],
+            "reaction_local_id": "ISMA-CHOLESTEROL-OXIDATION-OBSERVED-DELTA4",
+            "source": "10.1016/j.chom.2020.05.013"
+          },
+          "unresolved": []
+        },
+        {
+          "id": "ISMA-COPROSTANOL-OXIDATION-OBSERVED",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-21037",
+            "ISMA-KETONE-OXIDATION-ACCEPTOR"
+          ],
+          "outputs": [
+            "5BETA-CHOLESTAN-3-ONE",
+            "ISMA-KETONE-OXIDATION-REDUCED-ACCEPTOR"
+          ],
+          "enzyme": "IsmA (ECOP170)",
+          "evidence": {
+            "connection_type": "supported",
+            "inputs": [
+              "CPD-21037",
+              "ISMA-KETONE-OXIDATION-ACCEPTOR"
+            ],
+            "outputs": [
+              "5BETA-CHOLESTAN-3-ONE",
+              "ISMA-KETONE-OXIDATION-REDUCED-ACCEPTOR"
+            ],
+            "enzyme": "IsmA (ECOP170)",
+            "evidence": "Heterologous lysates oxidize coprostanol to coprostanone; the assay supplies a mixture of NAD+ and NADP+.",
+            "evidence_type": "heterologous_lysate_assay",
+            "locator": "Figure 3B-C and accompanying biochemical-characterization Results",
+            "qualifications": [
+              "The coprostanol assay did not resolve which nicotinamide cofactor is required."
+            ],
+            "reaction_local_id": "ISMA-COPROSTANOL-OXIDATION-OBSERVED",
+            "source": "10.1016/j.chom.2020.05.013"
+          },
+          "unresolved": [
+            {
+              "role": "unresolved_reactant_identity",
+              "source_literal": "ISMA-KETONE-OXIDATION-ACCEPTOR",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ISMA-DELTA5-KETONE-REDUCTION-OBSERVED",
+          "connection_type": "supported",
+          "inputs": [
+            "CHOLEST-5-EN-3-ONE",
+            "NADPH",
+            "PROTON"
+          ],
+          "outputs": [
+            "CHOLESTEROL",
+            "NADP"
+          ],
+          "enzyme": "IsmA",
+          "evidence": {
+            "connection_type": "supported",
+            "inputs": [
+              "CHOLEST-5-EN-3-ONE",
+              "NADPH",
+              "PROTON"
+            ],
+            "outputs": [
+              "CHOLESTEROL",
+              "NADP"
+            ],
+            "enzyme": "IsmA",
+            "evidence": "IsmA reduces 5-cholestenone to 3beta cholesterol with NADPH.",
+            "evidence_type": "purified_enzyme_assay",
+            "locator": "Results: Both 4- and 5-cholestenone intermediates; Figure 2E-F",
+            "qualifications": [
+              "This assay tests the cholesterol oxidation step in the reverse direction."
+            ],
+            "reaction_local_id": "ISMA-DELTA5-KETONE-REDUCTION-OBSERVED",
+            "source": "10.64898/2025.12.29.696961"
+          },
+          "unresolved": []
+        },
+        {
+          "id": "ISMA-DELTA4-KETONE-REDUCTION-OBSERVED",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-323",
+            "NADPH",
+            "PROTON"
+          ],
+          "outputs": [
+            "CHOLESTEROL",
+            "NADP"
+          ],
+          "enzyme": "IsmA",
+          "evidence": {
+            "connection_type": "supported",
+            "inputs": [
+              "CPD-323",
+              "NADPH",
+              "PROTON"
+            ],
+            "outputs": [
+              "CHOLESTEROL",
+              "NADP"
+            ],
+            "enzyme": "IsmA",
+            "evidence": "IsmA isomerizes and reduces 4-cholestenone to cholesterol with lower activity than for 5-cholestenone.",
+            "evidence_type": "purified_enzyme_assay",
+            "locator": "Results: Both 4- and 5-cholestenone intermediates; Figure 2E-F",
+            "qualifications": [
+              "Net isomerization and reduction; no free intermediate was characterized."
+            ],
+            "reaction_local_id": "ISMA-DELTA4-KETONE-REDUCTION-OBSERVED",
+            "source": "10.64898/2025.12.29.696961"
+          },
+          "unresolved": []
+        },
+        {
+          "id": "ISMB-DELTA5-5BETA-REDUCTION",
+          "connection_type": "supported",
+          "inputs": [
+            "CHOLEST-5-EN-3-ONE",
+            "ISMB-PHYSIOLOGICAL-ELECTRON-DONOR"
+          ],
+          "outputs": [
+            "5BETA-CHOLESTAN-3-ONE",
+            "ISMB-OXIDIZED-ELECTRON-DONOR"
+          ],
+          "enzyme": "IsmB (ECOP831)",
+          "evidence": {
+            "connection_type": "supported",
+            "inputs": [
+              "CHOLEST-5-EN-3-ONE",
+              "ISMB-PHYSIOLOGICAL-ELECTRON-DONOR"
+            ],
+            "outputs": [
+              "5BETA-CHOLESTAN-3-ONE",
+              "ISMB-OXIDIZED-ELECTRON-DONOR"
+            ],
+            "enzyme": "IsmB (ECOP831)",
+            "assay_reductant": "sodium dithionite",
+            "enzyme_bound_cofactors": [
+              "FMN",
+              "FAD",
+              "4Fe-4S cluster"
+            ],
+            "evidence": "Purified IsmB converts 5-cholestenone to 5beta-coprostanone anaerobically with sodium dithionite; NADH/NADPH do not efficiently support reduction.",
+            "evidence_type": "purified_enzyme_assay",
+            "locator": "Biochemical characterization; Figure 2C-D; cofactor Results pp. 12-14; Figure S3C-D",
+            "qualifications": [
+              "The physiological electron donor and its stoichiometry are unidentified.",
+              "Sodium dithionite was the assay reductant.",
+              "Only trace activity for delta-4 ketone and no direct cholesterol-to-coprostanol activity were detected."
+            ],
+            "reaction_local_id": "ISMB-DELTA5-5BETA-REDUCTION",
+            "source": "10.64898/2025.12.29.696961"
+          },
+          "unresolved": [
+            {
+              "role": "unresolved_reactant_identity",
+              "source_literal": "ISMB-PHYSIOLOGICAL-ELECTRON-DONOR",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "CULTURE-5BETA-KETONE-TO-COPROSTANOL",
+          "connection_type": "supported",
+          "inputs": [
+            "5BETA-CHOLESTAN-3-ONE",
+            "CULTURE-KETONE-REDUCTION-DONOR"
+          ],
+          "outputs": [
+            "CPD-21037",
+            "CULTURE-KETONE-REDUCTION-ACCEPTOR"
+          ],
+          "enzyme": null,
+          "evidence": {
+            "connection_type": "supported",
+            "inputs": [
+              "5BETA-CHOLESTAN-3-ONE",
+              "CULTURE-KETONE-REDUCTION-DONOR"
+            ],
+            "outputs": [
+              "CPD-21037",
+              "CULTURE-KETONE-REDUCTION-ACCEPTOR"
+            ],
+            "enzyme": null,
+            "evidence": "E. coprostanoligenes cultures supplied coprostanone produce coprostanol.",
+            "evidence_type": "culture_substrate_feed_conversion",
+            "locator": "Results: Both 4- and 5-cholestenone intermediates; Figure S4C",
+            "qualifications": [
+              "The substrate-feed assay shows the net conversion; the enzyme and cofactor are unidentified.",
+              "This conversion is the coprostanone-to-coprostanol step only."
+            ],
+            "reaction_local_id": "CULTURE-5BETA-KETONE-TO-COPROSTANOL",
+            "source": "10.64898/2025.12.29.696961"
+          },
+          "unresolved": [
+            {
+              "role": "unresolved_reactant_identity",
+              "source_literal": "CULTURE-KETONE-REDUCTION-DONOR",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ISMA-CHOLESTEROL-TO-DELTA5-PROPOSED",
+          "connection_type": "conditional",
+          "inputs": [
+            "CHOLESTEROL",
+            "NADP"
+          ],
+          "outputs": [
+            "CHOLEST-5-EN-3-ONE",
+            "NADPH",
+            "PROTON"
+          ],
+          "enzyme": "IsmA",
+          "evidence": {
+            "connection_type": "conditional",
+            "inputs": [
+              "CHOLESTEROL",
+              "NADP"
+            ],
+            "outputs": [
+              "CHOLEST-5-EN-3-ONE",
+              "NADPH",
+              "PROTON"
+            ],
+            "enzyme": "IsmA",
+            "evidence": "The authors assign 5-cholestenone as the immediate oxidation product; the observed reverse reaction and IsmB specificity support this assignment.",
+            "evidence_type": "authors_revised_pathway_assignment",
+            "locator": "Revised ism pathway, Figure 4C; Discussion pp. 22-23; reverse-direction assay Figure 2E-F",
+            "qualifications": [
+              "The forward lysate assay detected the delta-4 ketone, formed after isomerization; no delta-5 product was isolated."
+            ],
+            "reaction_local_id": "ISMA-CHOLESTEROL-TO-DELTA5-PROPOSED",
+            "source": "10.64898/2025.12.29.696961"
+          },
+          "unresolved": [
+            {
+              "role": "pathway_assignment",
+              "source_literal": "The authors assign 5-cholestenone as the immediate oxidation product; the observed reverse reaction and IsmB specificity support this assignment.",
+              "status": "conditional"
+            }
+          ]
+        },
+        {
+          "id": "ISMA-5BETA-KETONE-REDUCTION-PROPOSED",
+          "connection_type": "conditional",
+          "inputs": [
+            "5BETA-CHOLESTAN-3-ONE",
+            "NADPH",
+            "PROTON"
+          ],
+          "outputs": [
+            "CPD-21037",
+            "NADP"
+          ],
+          "enzyme": "IsmA",
+          "evidence": {
+            "connection_type": "conditional",
+            "inputs": [
+              "5BETA-CHOLESTAN-3-ONE",
+              "NADPH",
+              "PROTON"
+            ],
+            "outputs": [
+              "CPD-21037",
+              "NADP"
+            ],
+            "enzyme": "IsmA",
+            "evidence": "The authors assign the last NADPH-dependent reduction to IsmA; the older assay directly demonstrates the opposite oxidation direction.",
+            "evidence_type": "authors_pathway_assignment_with_reverse_assay",
+            "locator": "Figure 4C; Kenny et al. Figure 3B-C tests the reverse oxidation",
+            "qualifications": [
+              "The cited IsmA assays test the reverse oxidation."
+            ],
+            "reaction_local_id": "ISMA-5BETA-KETONE-REDUCTION-PROPOSED",
+            "source": "10.64898/2025.12.29.696961"
+          },
+          "unresolved": [
+            {
+              "role": "pathway_assignment",
+              "source_literal": "The authors assign the last NADPH-dependent reduction to IsmA; the older assay directly demonstrates the opposite oxidation direction.",
+              "status": "conditional"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "Physiological IsmB electron donor uncharacterized.",
+        "The enzyme and cofactor of the terminal reduction in culture-feed experiments are unidentified."
+      ],
+      "sources": [
+        {
+          "doi": "10.64898/2025.12.29.696961",
+          "locator": "Results: Both 4- and 5-cholestenone intermediates; Figure 2E-F; Results: Both 4- and 5-cholestenone intermediates; Figure 2E-F; Biochemical characterization; Figure 2C-D; cofactor Results pp. 12-14; Figure S3C-D; Results: Both 4- and 5-cholestenone intermediates; Figure S4C; Revised ism pathway, Figure 4C; Discussion pp. 22-23; reverse-direction assay Figure 2E-F; Figure 4C; Kenny et al. Figure 3B-C tests the reverse oxidation"
+        },
+        {
+          "doi": "10.1016/j.chom.2020.05.013",
+          "locator": "Biochemical characterization, Figure 3A; purified-enzyme cofactor dependence described with Figure S2F; Figure 3B-C and accompanying biochemical-characterization Results"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-TES",
+      "finding": "Tetraether synthase couples intact phospholipids. The assayed conversions of specific substrates and the generic MetaCyc reaction RXN-23586 describe the same transformation.",
+      "conversions": [
+        {
+          "id": "ARCH-TES-INTACT-AG-GDGT",
+          "connection_type": "supported",
+          "inputs": [
+            "ARCH-AG-SATURATED-PG",
+            "ARCH-AG-SATURATED-PG",
+            "S-ADENOSYLMETHIONINE",
+            "S-ADENOSYLMETHIONINE",
+            "S-ADENOSYLMETHIONINE",
+            "S-ADENOSYLMETHIONINE",
+            "ARCH-UNRESOLVED-TES-PHYSIO-DONOR",
+            "ARCH-UNRESOLVED-TES-PHYSIO-DONOR"
+          ],
+          "outputs": [
+            "ARCH-GDGT0-BIS-PG",
+            "MET",
+            "MET",
+            "MET",
+            "MET",
+            "CH33ADO",
+            "CH33ADO",
+            "CH33ADO",
+            "CH33ADO",
+            "PROTON",
+            "PROTON",
+            "PROTON",
+            "PROTON",
+            "ARCH-UNRESOLVED-TES-PHYSIO-DONOR-OXIDIZED",
+            "ARCH-UNRESOLVED-TES-PHYSIO-DONOR-OXIDIZED"
+          ],
+          "enzyme": "MJ0619/GDGT-MAS/Tes",
+          "evidence": {
+            "chemical_alternative_family_id": "RXN-23586",
+            "description": "Direct intact saturated AG assay; phosphoglycerol headgroups retained",
+            "native_specialization_not_independent_route": true,
+            "stoichiometry_basis": "Lipid multiplicity measured; radical SAM stoichiometry proposed in the source"
+          },
+          "unresolved": [
+            {
+              "role": "physiological_redox_partner",
+              "source_literal": "Physiological electron donor and its oxidized counterpart unidentified; the assay used Ti-citrate",
+              "status": "unresolved"
+            },
+            {
+              "role": "source_proposed_stoichiometry",
+              "source_literal": "Two SAM per new C-C bond is the proposed mechanism; coproducts were not quantified",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-TES-INTACT-AG-GTGT",
+          "connection_type": "supported",
+          "inputs": [
+            "ARCH-AG-SATURATED-PG",
+            "ARCH-AG-SATURATED-PG",
+            "S-ADENOSYLMETHIONINE",
+            "S-ADENOSYLMETHIONINE",
+            "ARCH-UNRESOLVED-TES-PHYSIO-DONOR"
+          ],
+          "outputs": [
+            "ARCH-GTGT-BIS-PG",
+            "MET",
+            "MET",
+            "CH33ADO",
+            "CH33ADO",
+            "PROTON",
+            "PROTON",
+            "ARCH-UNRESOLVED-TES-PHYSIO-DONOR-OXIDIZED"
+          ],
+          "enzyme": "MJ0619/GDGT-MAS/Tes",
+          "evidence": {
+            "chemical_alternative_family_id": null,
+            "description": "Direct intact saturated AG assay; phosphoglycerol headgroups retained",
+            "native_specialization_not_independent_route": false,
+            "stoichiometry_basis": "Lipid multiplicity measured; radical SAM stoichiometry proposed in the source"
+          },
+          "unresolved": [
+            {
+              "role": "physiological_redox_partner",
+              "source_literal": "Physiological electron donor and its oxidized counterpart unidentified; the assay used Ti-citrate",
+              "status": "unresolved"
+            },
+            {
+              "role": "source_proposed_stoichiometry",
+              "source_literal": "Two SAM per new C-C bond is the proposed mechanism; coproducts were not quantified",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-TES-GTGT-SECOND-COUPLING",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-GTGT-BIS-PG",
+            "S-ADENOSYLMETHIONINE",
+            "S-ADENOSYLMETHIONINE",
+            "ARCH-UNRESOLVED-TES-PHYSIO-DONOR"
+          ],
+          "outputs": [
+            "ARCH-GDGT0-BIS-PG",
+            "MET",
+            "MET",
+            "CH33ADO",
+            "CH33ADO",
+            "PROTON",
+            "PROTON",
+            "ARCH-UNRESOLVED-TES-PHYSIO-DONOR-OXIDIZED"
+          ],
+          "enzyme": "MJ0619/GDGT-MAS/Tes",
+          "evidence": {
+            "description": "GTGT time course and sulfur-containing intermediate support second coupling"
+          },
+          "unresolved": [
+            {
+              "role": "physiological_redox_partner",
+              "source_literal": "Physiological electron donor and its oxidized counterpart unidentified; the assay used Ti-citrate",
+              "status": "unresolved"
+            },
+            {
+              "role": "source_proposed_stoichiometry",
+              "source_literal": "Two SAM per new C-C bond is the proposed mechanism; coproducts were not quantified",
+              "status": "unresolved"
+            },
+            {
+              "role": "isolated_substrate",
+              "source_literal": "GTGT was not assayed as an isolated substrate",
+              "status": "unresolved"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "native electron donor and its oxidized counterpart",
+        "native headgroup preferences of every Tes homolog"
+      ],
+      "sources": [
+        {
+          "doi": "10.1038/s41586-022-05120-2",
+          "locator": "PDF pages 3, 4, 5, 7, 17, 18; Activity/product results; GDGT-MAS activity assays; Extended Data Figs. 7 and 8"
+        },
+        {
+          "doi": "10.1038/s41467-022-29264-x",
+          "locator": "PDF pages 2, 3, 7; Figs. 1 and 2; lipid extraction acid hydrolysis"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-TES-MAC",
+      "finding": "Tetraether synthase also catalyzes intramolecular coupling. MetaCyc RXN-23585 describes the reaction of intact phospholipids; the core lipids in the cited experiments were measured after hydrolysis.",
+      "conversions": [
+        {
+          "id": "ARCH-TES-INTACT-AG-MACRO",
+          "connection_type": "supported",
+          "inputs": [
+            "ARCH-AG-SATURATED-PG",
+            "S-ADENOSYLMETHIONINE",
+            "S-ADENOSYLMETHIONINE",
+            "ARCH-UNRESOLVED-TES-PHYSIO-DONOR"
+          ],
+          "outputs": [
+            "ARCH-MACRO-AG-PG",
+            "MET",
+            "MET",
+            "CH33ADO",
+            "CH33ADO",
+            "PROTON",
+            "PROTON",
+            "ARCH-UNRESOLVED-TES-PHYSIO-DONOR-OXIDIZED"
+          ],
+          "enzyme": "MJ0619/GDGT-MAS/Tes",
+          "evidence": {
+            "chemical_alternative_family_id": "RXN-23585",
+            "description": "Direct intact saturated AG assay; phosphoglycerol headgroups retained",
+            "native_specialization_not_independent_route": true,
+            "stoichiometry_basis": "Lipid multiplicity measured; radical SAM stoichiometry proposed in the source"
+          },
+          "unresolved": [
+            {
+              "role": "physiological_redox_partner",
+              "source_literal": "Physiological electron donor and its oxidized counterpart unidentified; the assay used Ti-citrate",
+              "status": "unresolved"
+            },
+            {
+              "role": "source_proposed_stoichiometry",
+              "source_literal": "Two SAM per new C-C bond is the proposed mechanism; coproducts were not quantified",
+              "status": "unresolved"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "native electron donor",
+        "headgroup of products in heterologous core-lipid assays"
+      ],
+      "sources": [
+        {
+          "doi": "10.1038/s41586-022-05120-2",
+          "locator": "PDF pages 4, 7, 17, 18; Lipid I identification; intact assay; Extended Data Fig. 7e"
+        },
+        {
+          "doi": "10.1038/s41467-022-29264-x",
+          "locator": "PDF pages 2, 3, 7; macrocyclic archaeol core production by Maeo_0574, MA1486 and trace MA1114; acid extraction"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-MA0127",
+      "finding": "MA0127 hydrates an unsaturated intact phosphoglycerol lipid. Hydration of saturated core lipids has not been reported.",
+      "conversions": [
+        {
+          "id": "ARCH-MA0127-INTACT-HYDRATION",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-11920",
+            "WATER"
+          ],
+          "outputs": [
+            "ARCH-HYDRATED-DGGGP-GLYCEROL"
+          ],
+          "enzyme": "MA0127",
+          "evidence": {
+            "description": "MS/MS supports one-chain 2-prime,3-prime hydration of engineered intact DGGGP-Gro"
+          },
+          "unresolved": [
+            {
+              "role": "positional_isomer",
+              "source_literal": "sn-2 versus sn-3 chain and OH stereochemistry not established",
+              "status": "unresolved"
+            },
+            {
+              "role": "cofactor",
+              "source_literal": "FAD involvement proposed from sequence, not demonstrated",
+              "status": "unresolved"
+            },
+            {
+              "role": "downstream_synthesis",
+              "source_literal": "Full reduction of the hydrated product was not tested in the cited studies",
+              "status": "unresolved"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "sn-2 versus sn-3 chain hydration and OH stereochemistry",
+        "whether a reductase fully reduces the MA0127-hydrated product",
+        "FAD involvement proposed from sequence rather than measured"
+      ],
+      "sources": [
+        {
+          "doi": "10.1016/j.bbrc.2015.09.001",
+          "locator": "PDF pages 2, 3, 4; Section 3.2, Fig. 2: product +18 Da; one chain hydrated at 2-prime,3-prime; Fig. 2 caption leaves sn-2/sn-3 unresolved"
+        },
+        {
+          "doi": "10.1128/JB.00927-13",
+          "locator": "PDF pages 4, 5, 6; MA1484/MA1485 reduce unhydroxylated DGGGP-Gro; no MA0127-hydrated substrate tested"
+        },
+        {
+          "doi": "10.1111/febs.12851",
+          "locator": "PDF pages 1, 2, 3, 4; MA1492 omega-end-specific reduction, not completion of hydrated lipid saturation"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-GMS",
+      "finding": "Purified Gms converts core GDGT-0 to GMGT-0; expression of Gms homologs gives GMGT products with unresolved headgroups.",
+      "conversions": [
+        {
+          "id": "ARCH-GMS-CORE-GDGT0-GMGT0",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-17763",
+            "ARCH-UNRESOLVED-GMS-SAM-TURNOVER",
+            "ARCH-UNRESOLVED-GMS-PHYSIO-DONOR"
+          ],
+          "outputs": [
+            "ARCH-GMGT0-CORE-MOGMS",
+            "ARCH-UNRESOLVED-GMS-SAM-REDOX-PRODUCTS"
+          ],
+          "enzyme": "MoGms",
+          "evidence": {
+            "description": "Purified MoGms converts isolated core GDGT-0 to core GMGT-0; lipid multiplicity 1:1"
+          },
+          "unresolved": [
+            {
+              "role": "sam_stoichiometry",
+              "source_literal": "SAM was supplied in excess; turnover coefficient and coproducts not measured",
+              "status": "unresolved"
+            },
+            {
+              "role": "physiological_redox_partner",
+              "source_literal": "The physiological electron donor is unknown; the assay used dithionite.",
+              "status": "unresolved"
+            },
+            {
+              "role": "product_identity",
+              "source_literal": "Bridge location/stereochemistry not determined by the MoGms assay",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-GMS-EXPRESSION-GMGT0a",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-GMS-EXPRESSION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-GMS-EXPRESSION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-GMS-EXPRESSION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-GMGT0a",
+            "ARCH-UNRESOLVED-GMS-EXPRESSION-COPRODUCT-SET"
+          ],
+          "enzyme": "Tg/Tc/Pf Gms",
+          "evidence": {
+            "description": "Tg/Tc/Pf Gms expression produces distinct GMGT-0a core observations"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-GMS-EXPRESSION-GMGT0b",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-GMS-EXPRESSION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-GMS-EXPRESSION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-GMS-EXPRESSION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-GMGT0b",
+            "ARCH-UNRESOLVED-GMS-EXPRESSION-COPRODUCT-SET"
+          ],
+          "enzyme": "Tg/Tc/Pf Gms",
+          "evidence": {
+            "description": "Tg/Tc/Pf Gms expression produces distinct GMGT-0b core observations"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "biological electron donor",
+        "SAM turnover number and measured coproducts",
+        "bridge position/stereochemistry",
+        "headgroup preferences across homologs"
+      ],
+      "sources": [
+        {
+          "doi": "10.1038/s41467-024-49650-x",
+          "locator": "PDF pages 2, 3, 6, 7; Fig. 1; purified GMGT product identification; preparation of GDGT-0 core by hydrolysis; MoGms activity assay"
+        },
+        {
+          "doi": "10.1073/pnas.2318761121",
+          "locator": "PDF pages 3, 8; Fig. 2: two GMGT-0 chromatographic isomers; core lipid analyses"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-GRSA",
+      "finding": "GrsA forms C7 rings in GDGT lipid families.",
+      "conversions": [
+        {
+          "id": "ARCH-GRSA-C7-FAMILY",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-CYCLIZATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-CYCLIZATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-CYCLIZATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-GDGT-C7-RINGS1TO4",
+            "ARCH-UNRESOLVED-CYCLIZATION-COPRODUCT-SET"
+          ],
+          "enzyme": "GrsA",
+          "evidence": {
+            "description": "C7-position-class cyclization, observed GDGT-1..4"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-GRSA-C7-COUNT1",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-CYCLIZATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-CYCLIZATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-CYCLIZATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-GDGT-C7-1",
+            "ARCH-UNRESOLVED-CYCLIZATION-COPRODUCT-SET"
+          ],
+          "enzyme": "GrsA",
+          "evidence": {
+            "count_resolved_subtype_of": "ARCH-FAMILY-GDGT-C7-RINGS1TO4",
+            "description": "GrsA-only complementation yields this measured C7 ring-count core family",
+            "subtype_not_independent_chemical_alternative": true
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-GRSA-C7-COUNT2",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-CYCLIZATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-CYCLIZATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-CYCLIZATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-GDGT-C7-2",
+            "ARCH-UNRESOLVED-CYCLIZATION-COPRODUCT-SET"
+          ],
+          "enzyme": "GrsA",
+          "evidence": {
+            "count_resolved_subtype_of": "ARCH-FAMILY-GDGT-C7-RINGS1TO4",
+            "description": "GrsA-only complementation yields this measured C7 ring-count core family",
+            "subtype_not_independent_chemical_alternative": true
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-GRSA-C7-COUNT3",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-CYCLIZATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-CYCLIZATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-CYCLIZATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-GDGT-C7-3",
+            "ARCH-UNRESOLVED-CYCLIZATION-COPRODUCT-SET"
+          ],
+          "enzyme": "GrsA",
+          "evidence": {
+            "count_resolved_subtype_of": "ARCH-FAMILY-GDGT-C7-RINGS1TO4",
+            "description": "GrsA-only complementation yields this measured C7 ring-count core family",
+            "subtype_not_independent_chemical_alternative": true
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-GRSA-C7-COUNT4",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-CYCLIZATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-CYCLIZATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-CYCLIZATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-GDGT-C7-4",
+            "ARCH-UNRESOLVED-CYCLIZATION-COPRODUCT-SET"
+          ],
+          "enzyme": "GrsA",
+          "evidence": {
+            "count_resolved_subtype_of": "ARCH-FAMILY-GDGT-C7-RINGS1TO4",
+            "description": "GrsA-only complementation yields this measured C7 ring-count core family",
+            "subtype_not_independent_chemical_alternative": true
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "native lipid headgroups",
+        "SAM stoichiometry/coproducts and biological electron-transfer partner",
+        "individual ring-topology isomers and order of placements"
+      ],
+      "sources": [
+        {
+          "doi": "10.1073/pnas.1909306116",
+          "locator": "PDF pages 2, 3, 4, 6; Fig. 2; GrsA-only complementation produces GDGT-1 to GDGT-4; C7 cyclization; core extraction/ether cleavage"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-GRSB",
+      "finding": "GrsB forms C3 rings without GrsA and acts preferentially on substrates already cyclized at C7.",
+      "conversions": [
+        {
+          "id": "ARCH-GRSB-GRSA-INDEPENDENT-C3",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-CYCLIZATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-CYCLIZATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-CYCLIZATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-GDGT-C3-RINGS1OR2",
+            "ARCH-UNRESOLVED-CYCLIZATION-COPRODUCT-SET"
+          ],
+          "enzyme": "GrsB",
+          "evidence": {
+            "description": "GrsB alone produces GDGT-1/2 with C3 rings; GrsA is not required"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-GRSB-C7-C3-FAMILY",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT-C7-RINGS1TO4",
+            "ARCH-UNRESOLVED-CYCLIZATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-CYCLIZATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-CYCLIZATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-GDGT-C7-C3-CYCLIZED",
+            "ARCH-UNRESOLVED-CYCLIZATION-COPRODUCT-SET"
+          ],
+          "enzyme": "GrsB",
+          "evidence": {
+            "description": "C3 ring addition on C7-cyclized family; individual sequential placements not assayed"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "native lipid headgroups",
+        "SAM/coproduct stoichiometry and electron-transfer partner",
+        "ring placement order and complete positional isomer sets"
+      ],
+      "sources": [
+        {
+          "doi": "10.1073/pnas.1909306116",
+          "locator": "PDF pages 3, 4, 6; Fig. 2: GrsB alone in double mutant produces GDGT-1 and minor GDGT-2 with C3 rings; GrsA+GrsB supports up to eight rings"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-GMM",
+      "finding": "Methylation of GMGT-0 gives chromatographic isomers with different methyl counts; a minor methylation of GDGT-0 was also measured.",
+      "conversions": [
+        {
+          "id": "ARCH-GMM-ME-GMGT0a",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GMGT0a",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-ME-GMGT0a",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "TgGmm",
+          "evidence": {
+            "description": "Alkyl-chain methylation in expression experiments; net methyl-count family, sequential steps unresolved"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-GMM-ME-GMGT0b",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GMGT0b",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-ME-GMGT0b",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "TgGmm",
+          "evidence": {
+            "description": "Alkyl-chain methylation in expression experiments; net methyl-count family, sequential steps unresolved"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-GMM-ME1-GDGT0",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-ME1-GDGT0",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Gmm",
+          "evidence": {
+            "chemical_alternative_family_id": "GDGT0-NET-ME1",
+            "description": "Measured additional methyl group; methyl donor stoichiometry unresolved"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-GMM-ME2-GDGT0",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-ME2-GDGT0",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Gmm",
+          "evidence": {
+            "chemical_alternative_family_id": "GDGT0-NET-ME2",
+            "description": "Measured additional methyl group; methyl donor stoichiometry unresolved"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "native headgroups",
+        "methyl positions/stereochemistry",
+        "SAM/B12 turnover mechanism and full coproduct equation",
+        "isolated stepwise substrate preferences"
+      ],
+      "sources": [
+        {
+          "doi": "10.1073/pnas.2318761121",
+          "locator": "PDF pages 3, 4, 8; Fig. 3; Tg/Tc Gms coexpression comparison; methylation positions not definitive; core lipid analyses"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-GDGT-METHYL",
+      "finding": "Cgm and Pgm are supported by different experiments and have different substrate ranges.",
+      "conversions": [
+        {
+          "id": "ARCH-PGM-ME1-GDGT0",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-ME1-GDGT0",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Pgm",
+          "evidence": {
+            "chemical_alternative_family_id": "GDGT0-NET-ME1",
+            "description": "Measured additional methyl group; methyl donor stoichiometry unresolved"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-CGM-TRACE-ME1-GDGT0",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-ME1-GDGT0",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Cgm",
+          "evidence": {
+            "chemical_alternative_family_id": "GDGT0-NET-ME1",
+            "description": "Trace Cgm-dependent methyl-GDGT-0 at 65 degrees C in GrsA deletion host"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-PGM-ME2-GDGT0",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-ME2-GDGT0",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Pgm",
+          "evidence": {
+            "chemical_alternative_family_id": "GDGT0-NET-ME2",
+            "description": "Measured additional methyl group; methyl donor stoichiometry unresolved"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-PGM-POLYME-GDGT0",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-PGM-ME3TO7-GDGT0",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Pgm",
+          "evidence": {
+            "description": "Net Pgm methyl-count family; methyl sites and individual steps unresolved"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-CGM-CYCLIZED-METHYL-FAMILY",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-CGM-CYCLIZED-GDGT2TO6",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-CGM-METHYLATED-CYCLIZED-GDGT",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Cgm",
+          "evidence": {
+            "description": "Net Cgm-associated cyclized methyl-lipid family; Me-GDGT-5/6 may arise by cyclization of Me-GDGT-4"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            },
+            {
+              "role": "reaction_order",
+              "source_literal": "Fig. 1E permits methylation of GDGT-5/6 or GrsB cyclization of Me-GDGT-4",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-CGM-ME1-GDGT4",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT-C7-4",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-CGM-ME1-GDGT-C7-4",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Cgm",
+          "evidence": {
+            "count_resolved_subtype_of": "ARCH-FAMILY-CGM-METHYLATED-CYCLIZED-GDGT",
+            "description": "GrsB-deletion Cgm overexpression demonstrates mono/di/tri-methyl GDGT-4 families",
+            "subtype_not_independent_chemical_alternative": true
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-CGM-ME2-GDGT4",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT-C7-4",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-CGM-ME2-GDGT-C7-4",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Cgm",
+          "evidence": {
+            "count_resolved_subtype_of": "ARCH-FAMILY-CGM-METHYLATED-CYCLIZED-GDGT",
+            "description": "GrsB-deletion Cgm overexpression demonstrates mono/di/tri-methyl GDGT-4 families",
+            "subtype_not_independent_chemical_alternative": true
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-CGM-ME3-GDGT4",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT-C7-4",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-CGM-ME3-GDGT-C7-4",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Cgm",
+          "evidence": {
+            "count_resolved_subtype_of": "ARCH-FAMILY-CGM-METHYLATED-CYCLIZED-GDGT",
+            "description": "GrsB-deletion Cgm overexpression demonstrates mono/di/tri-methyl GDGT-4 families",
+            "subtype_not_independent_chemical_alternative": true
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-PGM-CYCLIZED-METHYL-REALIZATION",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT-C7-RINGS1TO4",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-PGM-METHYLATED-CYCLIZED-GDGT1TO4",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Pgm",
+          "evidence": {
+            "description": "Possible methylation-after-cyclization realization of Pgm/Grs coexpression products"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            },
+            {
+              "role": "reaction_order",
+              "source_literal": "Alternatively, Grs cyclizes GDGT-0 already methylated by Pgm; the experiments do not distinguish the two orders",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-PGM-ARCHAEOL-METHYL-FAMILY",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-ARCHAEOL",
+            "ARCH-UNRESOLVED-METHYLATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-METHYLATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-METHYLATION-HEADGROUP-COMPATIBILITY",
+            "ARCH-UNRESOLVED-METHYLATION-METHYL-DONOR"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-PGM-ME-ARCHAEOL",
+            "ARCH-UNRESOLVED-METHYLATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Pgm",
+          "evidence": {
+            "description": "Controlled Pgm expression-dependent mono/di-methyl-archaeol core products"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "native headgroups",
+        "methyl positions/stereochemistry",
+        "full SAM/B12/methyl-donor and coproduct stoichiometry",
+        "individual sequential reaction order"
+      ],
+      "sources": [
+        {
+          "doi": "10.1101/2025.10.20.683597",
+          "locator": "PDF pages 9, 10, 11, 12, 13, 14, 30, 31, 34, 36; Cgm and Pgm results; Figs. 1 and 2; acid/base core-lipid extraction"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-TED",
+      "finding": "Ted produces desaturated lipid families; double-bond positions and several chromatographic isomers are unresolved.",
+      "conversions": [
+        {
+          "id": "ARCH-TED-GDGT-UNS1",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-DESATURATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-DESATURATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-TED-UNS1-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Ted",
+          "evidence": {
+            "count_resolved_subtype_of": "ARCH-FAMILY-TED-UNS1TO4-GDGT0",
+            "description": "Product with a measured alkene count, confirmed by hydrogenation; double-bond position unresolved",
+            "subtype_not_independent_chemical_alternative": true
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-TED-GDGT-UNS2",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-DESATURATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-DESATURATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-TED-UNS2a-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Ted",
+          "evidence": {
+            "count_resolved_subtype_of": "ARCH-FAMILY-TED-UNS1TO4-GDGT0",
+            "description": "Product with a measured alkene count, confirmed by hydrogenation; double-bond position unresolved",
+            "subtype_not_independent_chemical_alternative": true
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-TED-GDGT-UNS3",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-DESATURATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-DESATURATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-TED-UNS3-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Ted",
+          "evidence": {
+            "count_resolved_subtype_of": "ARCH-FAMILY-TED-UNS1TO4-GDGT0",
+            "description": "Product with a measured alkene count, confirmed by hydrogenation; double-bond position unresolved",
+            "subtype_not_independent_chemical_alternative": true
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-TED-GDGT-UNS4",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-DESATURATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-DESATURATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-TED-UNS4-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Ted",
+          "evidence": {
+            "count_resolved_subtype_of": "ARCH-FAMILY-TED-UNS1TO4-GDGT0",
+            "description": "Product with a measured alkene count, confirmed by hydrogenation; double-bond position unresolved",
+            "subtype_not_independent_chemical_alternative": true
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-TED-DESATURATES-OH1-GDGT",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-OH-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-DESATURATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-DESATURATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-TED-UNS-HO1-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Ted",
+          "evidence": {
+            "description": "Ted-associated unsaturation of existing mono/di-OH-GDGT family in M. acetivorans"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-TED-DESATURATES-OH2-GDGT",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-DIOH-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-DESATURATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-DESATURATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-TED-UNS-HO2-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Ted",
+          "evidence": {
+            "description": "Ted-associated unsaturation of existing mono/di-OH-GDGT family in M. acetivorans"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-TED-UNS6-UNS7-PROPOSED",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-NATIVE-UNS6-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-DESATURATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-DESATURATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-TED-UNS7-GDGT0",
+            "ARCH-UNRESOLVED-DESATURATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Ted",
+          "evidence": {
+            "description": "Ted-dependent Uns7 product; Uns6 precursor proposed, not separately assayed"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            },
+            {
+              "role": "substrate_identity",
+              "source_literal": "The Uns6-to-Uns7 conversion is proposed in the source",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-TED-MINOR-ARCHAEOL-DESATURATION",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-ARCHAEOL",
+            "ARCH-UNRESOLVED-DESATURATION-SAM-BALANCE",
+            "ARCH-UNRESOLVED-DESATURATION-REDOX-INPUT",
+            "ARCH-UNRESOLVED-DESATURATION-HEADGROUP-COMPATIBILITY"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-TED-UNS-ARCHAEOL",
+            "ARCH-UNRESOLVED-DESATURATION-COPRODUCT-SET"
+          ],
+          "enzyme": "Ted",
+          "evidence": {
+            "description": "Minor expression-dependent hydrogenation-sensitive archaeol products"
+          },
+          "unresolved": [
+            {
+              "role": "source_resolution",
+              "source_literal": "Lipid family conversion supported in cells; native headgroups and complete enzyme-participant equation unresolved",
+              "status": "unresolved"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "native headgroups",
+        "double-bond positions/stereochemistry",
+        "electron acceptor and SAM/B12 reaction stoichiometry"
+      ],
+      "sources": [
+        {
+          "doi": "10.1101/2025.10.20.683597",
+          "locator": "PDF pages 21, 22, 23, 30, 31, 40, 41; Ted results; Fig. 4: hydrogenation confirms double bonds; the C7 position is drawn for illustration; Uns2a differs from native Uns2b"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-HGS",
+      "finding": "Coexpression of Hgs with Ted produces hydroxylated lipid families. Hydration of the alkenes formed by Ted is the proposed mechanism.",
+      "conversions": [
+        {
+          "id": "ARCH-HGS-PROPOSED-MONOHYDRATION",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-TED-UNS1-GDGT0",
+            "WATER",
+            "ARCH-UNRESOLVED-HGS-SUBSTRATE-MECHANISM"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-OH-GDGT0"
+          ],
+          "enzyme": "Hgs",
+          "evidence": {
+            "description": "Hgs/Ted coexpression yields mono/di-OH cores; net hydration is proposed"
+          },
+          "unresolved": [
+            {
+              "role": "hydration_mechanism",
+              "source_literal": "Water stoichiometry follows from the proposed hydration; not confirmed by isotope labeling",
+              "status": "unresolved"
+            },
+            {
+              "role": "substrate_identity",
+              "source_literal": "Hgs-only trace product has unresolved endogenous substrate; OH site unknown",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-HGS-PROPOSED-DIHYDRATION",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-TED-UNS2a-GDGT0",
+            "WATER",
+            "WATER",
+            "ARCH-UNRESOLVED-HGS-SUBSTRATE-MECHANISM"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-DIOH-GDGT0"
+          ],
+          "enzyme": "Hgs",
+          "evidence": {
+            "description": "Hgs/Ted coexpression yields mono/di-OH cores; net hydration is proposed"
+          },
+          "unresolved": [
+            {
+              "role": "hydration_mechanism",
+              "source_literal": "Water stoichiometry follows from the proposed hydration; not confirmed by isotope labeling",
+              "status": "unresolved"
+            },
+            {
+              "role": "substrate_identity",
+              "source_literal": "Hgs-only trace product has unresolved endogenous substrate; OH site unknown",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "ARCH-HGS-PROPOSED-UNS7-OHUNS6",
+          "connection_type": "conditional",
+          "inputs": [
+            "ARCH-FAMILY-TED-UNS7-GDGT0",
+            "WATER",
+            "ARCH-UNRESOLVED-HGS-SUBSTRATE-MECHANISM"
+          ],
+          "outputs": [
+            "ARCH-FAMILY-HGS-OH-UNS6-GDGT0"
+          ],
+          "enzyme": "Hgs",
+          "evidence": {
+            "description": "Observed OH-Uns6 on coexpression is consistent with hydration of the Ted-added seventh alkene"
+          },
+          "unresolved": [
+            {
+              "role": "hydration_mechanism",
+              "source_literal": "Water stoichiometry follows from the proposed hydration; not confirmed by isotope labeling",
+              "status": "unresolved"
+            },
+            {
+              "role": "substrate_identity",
+              "source_literal": "Hgs-only trace product has unresolved endogenous substrate; OH site unknown",
+              "status": "unresolved"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "native lipid headgroups",
+        "alkene/OH sites and stereochemistry",
+        "direct water incorporation and isolated-substrate specificity",
+        "which endogenous substrate accounts for trace Hgs-only product"
+      ],
+      "sources": [
+        {
+          "doi": "10.1101/2025.10.20.683597",
+          "locator": "PDF pages 23, 24, 25, 30, 31, 42, 43; Hgs results and Fig. 5; Hgs alone trace OH products, Ted+Hgs robust mono/di-OH; hydration proposal"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-CRTU",
+      "finding": "CrtU converts beta-carotene to isorenieratene through beta-isorenieratene, aromatizing one end at a time.",
+      "conversions": [
+        {
+          "id": "CRTU-END-1",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD1F-129",
+            "UNRESOLVED-CRTU-OXIDIZED-ELECTRON-ACCEPTOR"
+          ],
+          "outputs": [
+            "SUPP-CPD-BETA-ISORENIERATENE"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Each aromatized end loses four hydrogen atoms; the electron acceptor is unidentified.",
+            "type": "heterologous_and_mutant_product_series"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Physiological electron acceptor/redox partner not identified.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "local_id": "UNRESOLVED-CRTU-OXIDIZED-ELECTRON-ACCEPTOR",
+              "role": "electron_acceptor",
+              "source_literal": "Physiological oxidized redox partner for the first aromatic end",
+              "status": "unidentified_participant"
+            }
+          ]
+        },
+        {
+          "id": "CRTU-END-2",
+          "connection_type": "supported",
+          "inputs": [
+            "SUPP-CPD-BETA-ISORENIERATENE",
+            "UNRESOLVED-CRTU-OXIDIZED-ELECTRON-ACCEPTOR"
+          ],
+          "outputs": [
+            "CPD-20624"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "The end loses four hydrogen atoms; the methyl group migrates within the molecule, so no methyl donor is consumed.",
+            "type": "heterologous_and_mutant_product_series"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Same unidentified redox partner.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "local_id": "UNRESOLVED-CRTU-OXIDIZED-ELECTRON-ACCEPTOR",
+              "role": "electron_acceptor",
+              "source_literal": "Physiological oxidized redox partner for the second aromatic end",
+              "status": "unidentified_participant"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "The redox partner and cofactor stoichiometry have not been measured with purified enzyme."
+      ],
+      "sources": [
+        {
+          "doi": "10.1016/S1388-1981(99)00075-X",
+          "locator": "pp. 59-63; Fig. 2 and Table 1",
+          "supports": "beta-carotene, beta-isorenieratene and isorenieratene series; crtU dependence"
+        },
+        {
+          "doi": "10.1128/AEM.00263-10",
+          "locator": "pp. 5204-5205; Figs. 3-4",
+          "supports": "heterologous CrtU-dependent isorenieratene with a minor beta-isorenieratene-like intermediate"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-CRUO",
+      "finding": "CruO ketolates hydrated acyclic carotenoid ends. It does not act on unmodified lycopene, neurosporene or gamma-carotene in the reported tests.",
+      "conversions": [
+        {
+          "id": "CRTC-LYCOPENE-HYDRATION-1",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD1F-114",
+            "WATER"
+          ],
+          "outputs": [
+            "SUPP-CPD-1-HYDROXYLYCOPENE"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Hydration adds water across one terminal 1,2 double bond.",
+            "type": "heterologous_and_cell_extract_hydratase_product_identification"
+          },
+          "unresolved": []
+        },
+        {
+          "id": "CRTC-LYCOPENE-HYDRATION-2",
+          "connection_type": "supported",
+          "inputs": [
+            "SUPP-CPD-1-HYDROXYLYCOPENE",
+            "WATER"
+          ],
+          "outputs": [
+            "SUPP-CPD-1-1PRIME-DIHYDROXYLYCOPENE"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Hydration at the second terminal end; no O2 is consumed.",
+            "type": "heterologous_and_cell_extract_hydratase_product_identification"
+          },
+          "unresolved": []
+        },
+        {
+          "id": "CRTC-GAMMA-HYDRATION",
+          "connection_type": "supported",
+          "inputs": [
+            "SUPP-CPD-GAMMA-CAROTENE",
+            "WATER"
+          ],
+          "outputs": [
+            "SUPP-CPD-1PRIME-HYDROXY-GAMMA-CAROTENE"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Gamma-carotene substrate purified before the CrtC cell-extract assay in Fig. 2.",
+            "type": "purified_substrate_and_crude_enzyme_extract_assay"
+          },
+          "unresolved": []
+        },
+        {
+          "id": "CRUO-DIHYDROXY-END-1",
+          "connection_type": "supported",
+          "inputs": [
+            "SUPP-CPD-1-1PRIME-DIHYDROXYLYCOPENE",
+            "UNRESOLVED-CRUO-OXYGEN-ATOM-SOURCE",
+            "UNRESOLVED-CRUO-REDOX-PARTNER"
+          ],
+          "outputs": [
+            "SUPP-CPD-4KETO-1-1PRIME-DIHYDROXYLYCOPENE"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "The full ketolation equation is unknown.",
+            "type": "heterologous_product_identification"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Oxygen atom source and redox partners not assayed; O2 is not required.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "local_id": "UNRESOLVED-CRUO-OXYGEN-ATOM-SOURCE",
+              "role": "oxygen_atom_source",
+              "source_literal": "Oxygen source other than O2; water suggested, not traced with isotopes",
+              "status": "unidentified_participant"
+            },
+            {
+              "local_id": "UNRESOLVED-CRUO-REDOX-PARTNER",
+              "role": "redox_partner",
+              "source_literal": "Ketolation redox partner and stoichiometry",
+              "status": "unidentified_participant"
+            }
+          ]
+        },
+        {
+          "id": "CRUO-DIHYDROXY-END-2",
+          "connection_type": "supported",
+          "inputs": [
+            "SUPP-CPD-4KETO-1-1PRIME-DIHYDROXYLYCOPENE",
+            "UNRESOLVED-CRUO-OXYGEN-ATOM-SOURCE",
+            "UNRESOLVED-CRUO-REDOX-PARTNER"
+          ],
+          "outputs": [
+            "SUPP-CPD-4-4PRIME-DIKETO-1-1PRIME-DIHYDROXYLYCOPENE"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "The two ends are modified in sequence.",
+            "type": "heterologous_product_identification"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Oxygen atom source and redox partners not assayed.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "local_id": "UNRESOLVED-CRUO-OXYGEN-ATOM-SOURCE",
+              "role": "oxygen_atom_source",
+              "source_literal": "Oxygen source other than O2; water suggested, not traced with isotopes",
+              "status": "unidentified_participant"
+            },
+            {
+              "local_id": "UNRESOLVED-CRUO-REDOX-PARTNER",
+              "role": "redox_partner",
+              "source_literal": "Ketolation redox partner and stoichiometry",
+              "status": "unidentified_participant"
+            }
+          ]
+        },
+        {
+          "id": "CRUO-OKENONE-PATHWAY",
+          "connection_type": "conditional",
+          "inputs": [
+            "SUPP-CPD-1PRIME-HYDROXY-GAMMA-CAROTENE",
+            "UNRESOLVED-CRUO-OXYGEN-ATOM-SOURCE",
+            "UNRESOLVED-CRUO-REDOX-PARTNER"
+          ],
+          "outputs": [
+            "SUPP-CPD-4PRIME-KETO-1PRIME-HYDROXY-GAMMA-CAROTENE"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Ketolation alone does not add the methoxy methyl carried by thiothece-474.",
+            "type": "trace_spectral_product_and_proposed_native_order"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Exact trace product and native step order not directly established; oxygen source and redox partner unresolved.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "local_id": "UNRESOLVED-CRUO-OXYGEN-ATOM-SOURCE",
+              "role": "oxygen_atom_source",
+              "source_literal": "Oxygen source other than O2; water suggested, not traced with isotopes",
+              "status": "unidentified_participant"
+            },
+            {
+              "local_id": "UNRESOLVED-CRUO-REDOX-PARTNER",
+              "role": "redox_partner",
+              "source_literal": "Ketolation redox partner and stoichiometry",
+              "status": "unidentified_participant"
+            }
+          ]
+        },
+        {
+          "id": "CRTF-OKENONE-PATHWAY",
+          "connection_type": "conditional",
+          "inputs": [
+            "SUPP-CPD-4PRIME-KETO-1PRIME-HYDROXY-GAMMA-CAROTENE",
+            "S-ADENOSYLMETHIONINE"
+          ],
+          "outputs": [
+            "CPD-17302",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Proposed separate O-methylation; SAM and SAH are inferred from the enzyme class, coproducts not measured.",
+            "type": "source_proposed_native_order_and_O_methyltransferase_chemistry"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "CrtF activity on this specific ketolated intermediate and native reaction order were not directly established.",
+              "status": "unresolved_in_experiments"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "Water is suggested as oxygen source but not isotope-traced.",
+        "Purified-enzyme substrate specificity and complete cofactor stoichiometry not determined."
+      ],
+      "sources": [
+        {
+          "doi": "10.1074/jbc.M111.280131",
+          "locator": "pp. 38525-38526; Figs. 3, 5, 6 and 9A; Table 1",
+          "supports": "CrtC-generated hydroxylated substrates and CruO mono-/di-keto products; activity under anoxia; CrtF methylation is a distinct step"
+        },
+        {
+          "doi": "10.1111/j.1472-4669.2011.00297.x",
+          "locator": "pp. 207, 210-213; Figs. 2 and 6",
+          "supports": "chi and phi ring distinction and okenone pathway context"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-CRUS",
+      "finding": "CruS acts on hydroxylated neurosporene derivatives to produce spheroidenone-family products. The primary paper excludes a role in okenone biosynthesis.",
+      "conversions": [
+        {
+          "id": "CRTC-NEUROSPORENE-HYDRATION-1",
+          "connection_type": "supported",
+          "inputs": [
+            "NEUROSPORENE",
+            "WATER"
+          ],
+          "outputs": [
+            "SUPP-CPD-MONOHYDROXYNEUROSPORENE"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Reported substrate family; the modified end is not uniquely resolved.",
+            "type": "heterologous_hydratase_product_identification"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "The reported mono-hydroxylated substrate fraction includes 1- and/or 1'-hydroxyneurosporene, not one uniquely assigned stereochemical state.",
+              "status": "unresolved_in_experiments"
+            }
+          ]
+        },
+        {
+          "id": "CRTC-NEUROSPORENE-HYDRATION-2",
+          "connection_type": "supported",
+          "inputs": [
+            "SUPP-CPD-MONOHYDROXYNEUROSPORENE",
+            "WATER"
+          ],
+          "outputs": [
+            "SUPP-CPD-1-1PRIME-DIHYDROXYNEUROSPORENE"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Pair of hydrated terminal ends.",
+            "type": "heterologous_hydratase_product_identification"
+          },
+          "unresolved": []
+        },
+        {
+          "id": "CRUS-MONOHYDROXY",
+          "connection_type": "supported",
+          "inputs": [
+            "SUPP-CPD-MONOHYDROXYNEUROSPORENE",
+            "OXYGEN-MOLECULE",
+            "UNRESOLVED-CRUS-ELECTRON-PARTNER"
+          ],
+          "outputs": [
+            "SUPP-CPD-DEMETHYLSPHEROIDENONE"
+          ],
+          "evidence": {
+            "O2_stoichiometry_status": "required in experiments; coefficient not measured",
+            "balance_checked": false,
+            "equation_qualification": "One O2 represents the requirement; the stoichiometry was not determined.",
+            "type": "heterologous_product_identification"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Monohydroxylated substrate end is not uniquely resolved.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "role": "source_qualification",
+              "source_literal": "O2 is required experimentally but its consumption multiplicity, coproducts and electron partner are not measured.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "local_id": "UNRESOLVED-CRUS-ELECTRON-PARTNER",
+              "role": "electron_delivery",
+              "source_literal": "Complete ketolation/desaturation electron delivery and O2 stoichiometry",
+              "status": "unidentified_participant"
+            }
+          ]
+        },
+        {
+          "id": "CRUS-DIHYDROXY",
+          "connection_type": "supported",
+          "inputs": [
+            "SUPP-CPD-1-1PRIME-DIHYDROXYNEUROSPORENE",
+            "OXYGEN-MOLECULE",
+            "UNRESOLVED-CRUS-ELECTRON-PARTNER"
+          ],
+          "outputs": [
+            "SUPP-CPD-1PRIME-HYDROXYDEMETHYLSPHEROIDENONE"
+          ],
+          "evidence": {
+            "O2_stoichiometry_status": "required in experiments; coefficient not measured",
+            "balance_checked": false,
+            "equation_qualification": "Lists the participants established by experiment; the equation is not atom-balanced.",
+            "type": "heterologous_product_identification"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Complete oxygen/redox equation unknown.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "local_id": "UNRESOLVED-CRUS-ELECTRON-PARTNER",
+              "role": "electron_delivery",
+              "source_literal": "Complete ketolation/desaturation electron delivery and O2 stoichiometry",
+              "status": "unidentified_participant"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "The physiological role of CruS in Thiodictyon is uncertain; the activity was measured in a heterologous host."
+      ],
+      "sources": [
+        {
+          "doi": "10.1074/jbc.M111.280131",
+          "locator": "pp. 38526-38527 and 38531; Figs. 4 and 7-8; Table 1",
+          "supports": "hydrated neurosporene substrates, ketolation plus desaturation, oxygen dependence, and no okenone role"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-HPNG",
+      "finding": "Purified HpnG phosphorolyzes adenosylhopane; adenine and phosphoribosylhopane are detected. A connecting phosphatase has not been identified.",
+      "conversions": [
+        {
+          "id": "HPNG-PHOSPHOROLYSIS",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-14522",
+            "Pi"
+          ],
+          "outputs": [
+            "SUPP-CPD-PHOSPHORIBOSYLHOPANE",
+            "ADENINE"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Net phosphorolysis with phosphate as reactant and adenine as product; protonation states are not balanced.",
+            "type": "purified_enzyme_substrate_and_product_assay"
+          },
+          "unresolved": []
+        }
+      ],
+      "remaining": [
+        "Enzyme and equation for phosphoribosylhopane -> ribosylhopane remain unidentified."
+      ],
+      "sources": [
+        {
+          "doi": "10.1002/cjoc.202400233",
+          "locator": "p. 2352; Fig. 3A-B and phosphate-vs-MOPS tests",
+          "supports": "adenine LC-HRMS, phosphate dependence and phosphoribosylhopane product"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-HPNH",
+      "finding": "Purified HpnH converts diploptene and SAM into (22R)-adenosylhopane and L-methionine, with an approximately one-to-one product ratio. The adenosyl group is incorporated rather than released as free 5-prime-deoxyadenosine.",
+      "conversions": [
+        {
+          "id": "HPNH-ADENOSYL-ADDITION",
+          "connection_type": "supported",
+          "inputs": [
+            "HOP-2229-ENE",
+            "S-ADENOSYLMETHIONINE",
+            "UNRESOLVED-HPNH-REDUCING-PARTNER"
+          ],
+          "outputs": [
+            "CPD-14522",
+            "MET"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Substrate and coproduct occur 1:1; the electron and proton balance is unknown.",
+            "type": "purified_enzyme_substrate_and_coproduct_assay"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Electron delivery is required; the assays used Fld/FNR/NADPH. The physiological electron donor and the net NADPH stoichiometry are unknown.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "local_id": "UNRESOLVED-HPNH-REDUCING-PARTNER",
+              "role": "electron_donor",
+              "source_literal": "Physiological reducing partner; assay used Fld/FNR/NADPH",
+              "status": "unidentified_participant"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "Physiological regeneration of the thiyl radical and oxidized SAM-binding cluster is not determined."
+      ],
+      "sources": [
+        {
+          "doi": "10.1002/anie.201911584",
+          "locator": "main assay, product NMR, and Scheme 1; pp. 271-274",
+          "supports": "diploptene -> (22R)-adenosylhopane with SAM/Fld/FNR/NADPH"
+        },
+        {
+          "doi": "10.1021/acs.biochem.1c00536",
+          "locator": "p. 2869 Fig. 3A-B; pp. 2871-2872 mechanistic discussion",
+          "supports": "simultaneous adenosylhopane and L-methionine measurement; unresolved physiological reducing partner"
+        },
+        {
+          "doi": "10.1021/acs.biochem.1c00536",
+          "locator": "Figs. S1 and S6; methionine and adenosylhopane HPLC time course",
+          "supports": "structural context and separate standards for the measured methionine and adenosylhopane products"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-HPNI",
+      "finding": "HpnI loss removes glucosamine and cyclitol products. GlcNAc transfer to BHT is proposed, but ribosylhopane has not been excluded as the native acceptor.",
+      "conversions": [
+        {
+          "id": "HPNI-PROPOSED-GLCNAC",
+          "connection_type": "conditional",
+          "inputs": [
+            "CPD-14519",
+            "UDP-N-ACETYL-D-GLUCOSAMINE"
+          ],
+          "outputs": [
+            "SUPP-CPD-BHT-35O-BETA-D-GLCNAC",
+            "UDP"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "UDP is a coproduct of the proposed transfer; it was not measured.",
+            "type": "gene_deletion_and_homology_supported_proposal"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "BHT and ribosylhopane have not been compared as acceptors, and UDP-GlcNAc has not been assayed as donor.",
+              "status": "unresolved_in_experiments"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "Exact acceptor substrate and reaction order remain unresolved by these mutant/LC-MS experiments."
+      ],
+      "sources": [
+        {
+          "doi": "10.1111/1462-2920.12509",
+          "locator": "pp. 738-740; Figs. 2-3; Table 1",
+          "supports": "gene deletions, BHT accumulation, proposed glycosyl transfer and acceptor uncertainty"
+        },
+        {
+          "doi": "10.1111/1462-2920.12509",
+          "locator": "pp. 1-2, 8; Fig. S2",
+          "supports": "acetylation for analysis and structural assignment limits"
+        },
+        {
+          "doi": "10.1039/b212685k",
+          "locator": "pp. 782-783; Fig. 1, Table 1 and Scheme 2",
+          "supports": "selective label incorporation from GlcNAc into both glycosidic and amino-cyclitol heads; immediate donor and sequence remain proposed"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-HPNK",
+      "finding": "HpnK loss accumulates a compound consistent with acetylated BHT glucosamine and abolishes cyclitol ether. Deacetylation is proposed from this phenotype and ChbG homology.",
+      "conversions": [
+        {
+          "id": "HPNK-PROPOSED-HYDROLYSIS",
+          "connection_type": "conditional",
+          "inputs": [
+            "SUPP-CPD-BHT-35O-BETA-D-GLCNAC",
+            "WATER"
+          ],
+          "outputs": [
+            "SUPP-CPD-BHT-35O-BETA-D-GLCN",
+            "ACET"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Water and acetate complete the proposed hydrolytic equation; charges and protons are not balanced.",
+            "type": "gene_deletion_and_homology_supported_proposal"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Native N-acetyl acceptor state and hydrolysis were not assayed directly.",
+              "status": "unresolved_in_experiments"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "Purified enzyme specificity and native N-acetylation state remain unknown."
+      ],
+      "sources": [
+        {
+          "doi": "10.1111/1462-2920.12509",
+          "locator": "pp. 739-741; Figs. 2-3",
+          "supports": "proposed GlcNAc deacetylase, mutant accumulation and loss of cyclitol"
+        },
+        {
+          "doi": "10.1111/1462-2920.12509",
+          "locator": "pp. 1-2 and 8; Fig. S2",
+          "supports": "all analyzed lipids were acetylated; native acetylation distinction not directly established"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-HPNJ",
+      "finding": "HpnJ is genetically required for BHT cyclitol ether. GlcN-to-cyclitol ring contraction and radical-SAM chemistry are proposed rather than directly reconstituted.",
+      "conversions": [
+        {
+          "id": "HPNJ-PROPOSED-RING-CONTRACTION",
+          "connection_type": "conditional",
+          "inputs": [
+            "SUPP-CPD-BHT-35O-BETA-D-GLCN",
+            "UNRESOLVED-HPNJ-SAM-CYCLING",
+            "UNRESOLVED-HPNJ-ELECTRON-DELIVERY"
+          ],
+          "outputs": [
+            "SUPP-CPD-BHT-35O-AMINO-CYCLITOL"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "The amino-substituted cyclitol retains nitrogen; the equation is a proposed isomerization, and the role of SAM is unknown.",
+            "type": "gene_deletion_supported_proposed_ring_contraction"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "SAM involvement/turnover, coproducts and electron-delivery requirements not measured.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "local_id": "UNRESOLVED-HPNJ-SAM-CYCLING",
+              "role": "catalytic_requirement",
+              "source_literal": "Proposed SAM involvement, consumption versus regeneration unknown",
+              "status": "unidentified_participant"
+            },
+            {
+              "local_id": "UNRESOLVED-HPNJ-ELECTRON-DELIVERY",
+              "role": "electron_delivery",
+              "source_literal": "Proposed radical-SAM electron delivery, not directly assayed",
+              "status": "unidentified_participant"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "Whether HpnJ consumes or regenerates SAM is unknown.",
+        "The observed cyclitol ether retains its amino substituent; no nitrogen loss has been observed."
+      ],
+      "sources": [
+        {
+          "doi": "10.1111/1462-2920.12509",
+          "locator": "pp. 740-743; Figs. 2-3 and radical-SAM discussion",
+          "supports": "loss of cyclitol in hpnJ mutant; nitrogen-retaining amino-cyclitol structure and ring-contraction analogy to QueE"
+        },
+        {
+          "doi": "10.1039/b212685k",
+          "locator": "pp. 782-783; Fig. 1 and Table 1",
+          "supports": "native amino-cyclitol and selective headgroup label incorporation"
+        },
+        {
+          "doi": "10.1111/j.1432-1033.1985.tb09116.x",
+          "locator": "pp. 405-409; Fig. 1 compounds 6-7; NMR structural assignment and note on acetylation",
+          "supports": "amino-cyclitol and guanidino-cyclitol are distinct; amino nitrogen retained, headgroup stereochemistry initially unresolved"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-HPNO",
+      "finding": "HpnO is required for aminotriol production. Formylhopane is the favored aldehyde substrate, but it was not detected or assayed in the Welander experiment; BHT-based transfer was disfavored.",
+      "conversions": [
+        {
+          "id": "HPNO-PROPOSED-TRANSAMINATION",
+          "connection_type": "conditional",
+          "inputs": [
+            "CPD-14524",
+            "GLT"
+          ],
+          "outputs": [
+            "CPD-14521",
+            "2-KETOGLUTARATE"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Glutamate and 2-oxoglutarate belong to the proposed transaminase equation; they were not measured.",
+            "type": "genetic_requirement_and_homology_supported_substrate_proposal"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Direct formylhopane substrate assay, amino donor identity and PLP requirement not determined for HpnO.",
+              "status": "unresolved_in_experiments"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "The enzyme for conversion of phosphoribosylhopane to ribosylhopane remains unknown.",
+        "The amino donor and PLP stoichiometry are unknown."
+      ],
+      "sources": [
+        {
+          "doi": "10.1111/j.1472-4669.2011.00314.x",
+          "locator": "PDF pp. 7-8, 11; Fig. 2 reactions 4-6 and Fig. 5",
+          "supports": "hpnO deletion/complementation, proposed formyl branch, ArgD homology and unmeasured formyl/ribosyl intermediates"
+        },
+        {
+          "doi": "10.1002/cbic.201500021",
+          "locator": "pp. 1764-1767; Schemes 1-2",
+          "supports": "ribosyl lactol/open-chain aldehyde relation and direct ribosyl->BHT reduction"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-HPNP",
+      "finding": "HpnP deletion and complementation alter C2 methylation of several hopanoids, including BHT. Stimulation by vitamin B12 supports a cobalamin-dependent class B radical SAM mechanism, for which two SAM per methyl transfer are proposed.",
+      "conversions": [
+        {
+          "id": "HPNP-PROPOSED-BHT-METHYLATION",
+          "connection_type": "conditional",
+          "inputs": [
+            "CPD-14519",
+            "S-ADENOSYLMETHIONINE",
+            "S-ADENOSYLMETHIONINE",
+            "UNRESOLVED-HPNP-REDUCING-PARTNER"
+          ],
+          "outputs": [
+            "CPD-14520",
+            "MET",
+            "SUPP-CPD-5PRIME-DEOXYADENOSINE",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "evidence": {
+            "SAM_stoichiometry_status": "two SAM proposed; not measured with purified enzyme",
+            "balance_checked": false,
+            "catalytic_requirement": "cobalamin; proposed class-B radical-SAM mechanism",
+            "equation_qualification": "The two SAM and the coproducts follow the mechanism proposed by Elling et al.; the stoichiometry was not measured.",
+            "type": "genetic_products_with_proposed_class_B_radical_SAM_net"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Methylation of mature BHT and the two-SAM stoichiometry have not been tested with purified HpnP.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "role": "source_qualification",
+              "source_literal": "Cobalamin cycling and physiological reducing equivalents remain unmeasured.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "local_id": "UNRESOLVED-HPNP-REDUCING-PARTNER",
+              "role": "electron_donor",
+              "source_literal": "Physiological reductant and cobalamin cycling for proposed mechanism",
+              "status": "unidentified_participant"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "Methylation may occur before side-chain maturation; the order is unresolved."
+      ],
+      "sources": [
+        {
+          "doi": "10.1073/pnas.0912949107",
+          "locator": "pp. 8538-8539; Figs. 1-2 and combined SI Fig. S1/Table S6",
+          "supports": "six methylated end products including methylBHT disappear and return with hpnP"
+        },
+        {
+          "doi": "10.1073/pnas.2012357117",
+          "locator": "pp. 32998-33000; Fig. 3A and mechanism text",
+          "supports": "two-SAM/cobalamin mechanism explicitly proposed from growth/cofactor and domain evidence"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-HPNR",
+      "finding": "HpnR deletion and complementation were tested with aminobacteriohopanetetrol and aminobacteriohopanepentol and their C3 methyl derivatives. Methylation of BHT itself has not been shown.",
+      "conversions": [
+        {
+          "id": "HPNR-PROPOSED-AMINOTETROL-METHYLATION",
+          "connection_type": "conditional",
+          "inputs": [
+            "SUPP-CPD-AMINOBACTERIOHOPANETETROL",
+            "S-ADENOSYLMETHIONINE",
+            "S-ADENOSYLMETHIONINE",
+            "UNRESOLVED-HPNR-REDUCING-PARTNER"
+          ],
+          "outputs": [
+            "SUPP-CPD-3METHYL-AMINOBACTERIOHOPANETETROL",
+            "MET",
+            "SUPP-CPD-5PRIME-DEOXYADENOSINE",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "evidence": {
+            "SAM_stoichiometry_status": "two SAM proposed; not measured with purified enzyme",
+            "balance_checked": false,
+            "catalytic_requirement": "cobalamin; proposed class-B radical-SAM mechanism",
+            "equation_qualification": "Proposed mechanism; the equation was not measured.",
+            "type": "genetic_products_with_proposed_class_B_mechanism"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Direct mature aminohopanoid substrate and full SAM/electron stoichiometry not assayed.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "local_id": "UNRESOLVED-HPNR-REDUCING-PARTNER",
+              "role": "electron_donor",
+              "source_literal": "Physiological reductant and cobalamin cycling for proposed mechanism",
+              "status": "unidentified_participant"
+            }
+          ]
+        },
+        {
+          "id": "HPNR-PROPOSED-AMINOPENTOL-METHYLATION",
+          "connection_type": "conditional",
+          "inputs": [
+            "SUPP-CPD-AMINOBACTERIOHOPANEPENTOL",
+            "S-ADENOSYLMETHIONINE",
+            "S-ADENOSYLMETHIONINE",
+            "UNRESOLVED-HPNR-REDUCING-PARTNER"
+          ],
+          "outputs": [
+            "SUPP-CPD-3METHYL-AMINOBACTERIOHOPANEPENTOL",
+            "MET",
+            "SUPP-CPD-5PRIME-DEOXYADENOSINE",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "evidence": {
+            "SAM_stoichiometry_status": "two SAM proposed; not measured with purified enzyme",
+            "balance_checked": false,
+            "catalytic_requirement": "cobalamin; proposed class-B radical-SAM mechanism",
+            "equation_qualification": "Proposed equation.",
+            "type": "genetic_products_with_proposed_class_B_mechanism"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Substrate, order and mechanism unresolved, as for the previous step.",
+              "status": "unresolved_in_experiments"
+            },
+            {
+              "local_id": "UNRESOLVED-HPNR-REDUCING-PARTNER",
+              "role": "electron_donor",
+              "source_literal": "Physiological reductant and cobalamin cycling for proposed mechanism",
+              "status": "unidentified_participant"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "Timing of methylation relative to side-chain extension and hydroxylation is unresolved."
+      ],
+      "sources": [
+        {
+          "doi": "10.1073/pnas.1208255109",
+          "locator": "pp. 12905-12906 / PDF pp. 1-2; Figs. 1A and 2",
+          "supports": "measured amino-tetrol/pentol endpoint products, deletion and rescue"
+        },
+        {
+          "doi": "10.1073/pnas.2012357117",
+          "locator": "Fig. 3A and following mechanism paragraph",
+          "supports": "two-SAM/cobalamin mechanism extended to HpnR explicitly by analogy"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-RIBOSYL-TO-BHT",
+      "finding": "A cell-free M. organophilum system converts labeled ribosylhopane into labeled BHT. NADPH strongly supports conversion; boiled-system controls do not. This is a net enzymatic conversion rather than spontaneous formation.",
+      "conversions": [
+        {
+          "id": "RIBOSYL-TO-BHT-NET",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-14523",
+            "NADPH",
+            "PROTON"
+          ],
+          "outputs": [
+            "CPD-14519",
+            "NADP"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "NADP+ and H+ complete the reduction equation and were not quantified; NADPH use is supported by experiment.",
+            "type": "labeled_substrate_cell_free_net_conversion"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "Specific reductase(s) and open-chain intermediate handling not identified.",
+              "status": "unresolved_in_experiments"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "The enzyme has not been purified and its cofactor specificity is unknown; the weak NADH response may reflect endogenous NADPH."
+      ],
+      "sources": [
+        {
+          "doi": "10.1002/cbic.201500021",
+          "locator": "pp. 1765-1769; Table 2, Schemes 2-3, Fig. 1 and incubation methods",
+          "supports": "label transfer, NADPH preference, nonlabeled/boiled controls and native reduction prior to analytical acetylation"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-ISOARBORINOL",
+      "finding": "Rice OsIAS1 produces isoarborinol, supported by heterologous yeast expression, product NMR and in-planta expression. IAS and the bacterial EUS product assignment are distinct.",
+      "conversions": [
+        {
+          "id": "IAS-OXIDOSQUALENE-CYCLIZATION",
+          "connection_type": "supported",
+          "inputs": [
+            "EPOXYSQUALENE"
+          ],
+          "outputs": [
+            "CPD-15243"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Intramolecular cyclization; oxygen of 2,3-oxidosqualene is retained in the 3-hydroxyl group. No net redox donor or consumed external cofactor is required.",
+            "type": "heterologous_expression_NMR_and_in_planta_product_verification"
+          },
+          "unresolved": []
+        }
+      ],
+      "remaining": [],
+      "sources": [
+        {
+          "doi": "10.1111/j.1469-8137.2011.03997.x",
+          "locator": "pp. 1026-1029; Figs. 3-4 and NMR in Results",
+          "supports": "Os11g35710/OsOSC11/OsIAS1 produces structurally characterized isoarborinol from the oxidosqualene pool"
+        },
+        {
+          "doi": "10.1093/molbev/msaf203",
+          "locator": "PDF pp. 5-7, Table 1 and Fig. 4; pp. 11-12, expression and NMR methods",
+          "supports": "two expressed environmental cyclases produce isoarborinol from oxidosqualene; main paper states NMR confirmation; their microbial affiliation is inferred"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-THS",
+      "finding": "Ths together with Shc produces tetrahymanol in engineered cells; Ths alone does not modify squalene. The immediate hopene substrate was not identified.",
+      "conversions": [
+        {
+          "id": "THS-PROPOSED-DIPLOPTENE-RING-EXPANSION",
+          "connection_type": "conditional",
+          "inputs": [
+            "HOP-2229-ENE",
+            "WATER"
+          ],
+          "outputs": [
+            "CPD-11533"
+          ],
+          "evidence": {
+            "balance_checked": false,
+            "equation_qualification": "Hopene + water is the proposed ring-expansion and hydration equation; the stoichiometry was not observed.",
+            "type": "heterologous_hopene_pool_dependence_with_proposed_specific_substrate"
+          },
+          "unresolved": [
+            {
+              "role": "source_qualification",
+              "source_literal": "The immediate hopene isomer was not distinguished; water-derived hydroxyl oxygen not traced; purified-enzyme hydration not assayed.",
+              "status": "unresolved_in_experiments"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "Immediate hopene identity and mechanistic fold remain unknown."
+      ],
+      "sources": [
+        {
+          "doi": "10.1073/pnas.1511482112",
+          "locator": "PDF pp. 3-5; Fig. 5 and discussion; combined SI Figs. S3 and S7",
+          "supports": "deletion/rescue, heterologous production, required hopene pool and proposed ring expansion"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-SMT3-ISOPROPYL",
+      "finding": "Brown et al. characterize sequential methylations and three unsaturated C30 products; the delta-25 product has C24S stereochemistry. Products are recorded for each enzyme as assayed. Saturated 24-isopropylcholesterol was not a product in these assays.",
+      "conversions": [
+        {
+          "id": "SMT-DESMOSTEROL-METHYLENE",
+          "connection_type": "supported",
+          "inputs": [
+            "DESMOSTEROL-CPD",
+            "S-ADENOSYLMETHIONINE"
+          ],
+          "outputs": [
+            "CPD-706",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "enzyme": "Sterol methyltransferase",
+          "evidence": "Main Fig. 1b-e and Fig. 2; pp. 2-5, SMT Methods p. 8; substrate assays and the predominant sequence of methylations. Activities differ among SMTs; the enzyme-specific associations are those in Fig. 2.",
+          "unresolved": [
+            {
+              "role": "balanced_equation",
+              "source_literal": "SAM supplies one methyl group and becomes SAH with each transfer; SAH was not measured in these assays.",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "SMT-DESMOSTEROL-CODISTEROL",
+          "connection_type": "conditional",
+          "inputs": [
+            "DESMOSTEROL-CPD",
+            "S-ADENOSYLMETHIONINE"
+          ],
+          "outputs": [
+            "SUPP-CPD-CODISTEROL-EPICODISTEROL",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "enzyme": "Sterol methyltransferase",
+          "evidence": "Fig. 1e II; Fig. 2 and caption pp. 3-4; assayed C28 delta25 product, reported as (epi)codisterol without a C24 assignment; represented separately from MetaCyc CPD-706.",
+          "unresolved": [
+            {
+              "role": "balanced_equation",
+              "source_literal": "SAM supplies one methyl group and becomes SAH with each transfer; SAH was not measured in these assays.",
+              "status": "unresolved"
+            },
+            {
+              "role": "product_stereoisomer",
+              "source_literal": "Source reports (epi)codisterol without a unique C24 stereoisomer assignment.",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "SMT-DESMOSTEROL-METHYLDESMOSTEROL",
+          "connection_type": "supported",
+          "inputs": [
+            "DESMOSTEROL-CPD",
+            "S-ADENOSYLMETHIONINE"
+          ],
+          "outputs": [
+            "CPD-4141",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "enzyme": "Sterol methyltransferase",
+          "evidence": "Fig. 1e V; Fig. 2 and caption pp. 3-4; product of the bacterial SMTs assayed in these occurrences.",
+          "unresolved": [
+            {
+              "role": "balanced_equation",
+              "source_literal": "SAM supplies one methyl group and becomes SAH with each transfer; SAH was not measured in these assays.",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "SMT-METHYLENE-ISOFUCOSTEROL",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-706",
+            "S-ADENOSYLMETHIONINE"
+          ],
+          "outputs": [
+            "CPD-4127",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "enzyme": "Sterol methyltransferase",
+          "evidence": "Main pp. 4-5 isotope Results and p. 8 NMR Methods; Fig. 1b; supplement Table 3 p. 32; isofucosterol is the Z-ethylidene substrate of the third methylation. The Aplysina isotope/NMR experiment gives isofucosterol and fucosterol in a 7:1 ratio as alternative products.",
+          "unresolved": [
+            {
+              "role": "balanced_equation",
+              "source_literal": "SAM supplies one methyl group and becomes SAH with each transfer; SAH was not measured in these assays.",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "SMT-METHYLENE-FUCOSTEROL",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-706",
+            "S-ADENOSYLMETHIONINE"
+          ],
+          "outputs": [
+            "CPD-22095",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "enzyme": "Sterol methyltransferase",
+          "evidence": "Main pp. 4-5 isotope Results and p. 8 NMR Methods; supplement Table 3 p. 32; E-ethylidene product (fucosterol). The two propylating enzymes tested by isotope/NMR did not methylate fucosterol further.",
+          "unresolved": [
+            {
+              "role": "balanced_equation",
+              "source_literal": "SAM supplies one methyl group and becomes SAH with each transfer; SAH was not measured in these assays.",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "SMT-METHYLENE-EPICLEROSTEROL",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-706",
+            "S-ADENOSYLMETHIONINE"
+          ],
+          "outputs": [
+            "SUPP-CPD-EPICLEROSTEROL",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "enzyme": "Sterol methyltransferase",
+          "evidence": "Main pp. 4-5; supplement Table 3 p. 32 footnote; epiclerosterol detected and clerosterol absent in the Aplysina JGIcombinedJ30088_10000835 1 of 2 and Chlamydiae drinking-water 1 of 2 assays. Other (epi)clerosterol occurrences in Fig. 2 have no stereochemical assignment and are recorded as a product family.",
+          "unresolved": [
+            {
+              "role": "balanced_equation",
+              "source_literal": "SAM supplies one methyl group and becomes SAH with each transfer; SAH was not measured in these assays.",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "SMT-ISOFUCOSTEROL-ISOPROPYL-DELTA25",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-4127",
+            "S-ADENOSYLMETHIONINE"
+          ],
+          "outputs": [
+            "24S-24-ISOPROPYLCHOLESTA-5-25-DIENOL",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "enzyme": [
+            "Aplysina aerophoba symbiont SMT JGIcombinedJ30088_1000083511 (genome 3300002448)",
+            "Chlamydiae drinking-water SMT 2619789262 (MAG 2619618861)"
+          ],
+          "evidence": "Main pp. 4-5 isotope Results and p. 8 NMR Methods; Fig. 1b/VIII; supplement Table 3 p. 32; ",
+          "unresolved": [
+            {
+              "role": "balanced_equation",
+              "source_literal": "SAM supplies one methyl group and becomes SAH with each transfer; SAH was not measured in these assays.",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "SMT-ISOFUCOSTEROL-ISOPROPYL-DELTA24",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-4127",
+            "S-ADENOSYLMETHIONINE"
+          ],
+          "outputs": [
+            "24-ISOPROPYLCHOLESTA-5-24-DIENOL",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "enzyme": [
+            "Chlamydiae drinking-water SMT 2619789262"
+          ],
+          "evidence": "Main p. 5 isotope Results, Fig. 1e IX; supplement Table 3 p. 32; Fig. 2 also records delta24 production by Aplysina Ga0209021_100014628 in desmosterol and methylene assays; no isofucosterol assay of that enzyme is reported.",
+          "unresolved": [
+            {
+              "role": "balanced_equation",
+              "source_literal": "SAM supplies one methyl group and becomes SAH with each transfer; SAH was not measured in these assays.",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "SMT-ISOFUCOSTEROL-ISOPROPYL-DELTA23",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-4127",
+            "S-ADENOSYLMETHIONINE"
+          ],
+          "outputs": [
+            "24-ISOPROPYLCHOLESTA-5-23-DIENOL",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "enzyme": [
+            "Chlamydiae drinking-water SMT 2619789262"
+          ],
+          "evidence": "Main p. 5 and Fig. 2 footnote; supplement Table 3 p. 32; ",
+          "unresolved": [
+            {
+              "role": "balanced_equation",
+              "source_literal": "SAM supplies one methyl group and becomes SAH with each transfer; SAH was not measured in these assays.",
+              "status": "unresolved"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "Enzymatic reduction of these C30 products to saturated 24-isopropylcholesterol has not been shown.",
+        "The C24 configuration of the codisterol/epicodisterol family is unresolved. Only two (epi)clerosterol occurrences have an NMR stereochemical assignment."
+      ],
+      "sources": [
+        {
+          "doi": "10.1038/s41467-023-37552-3",
+          "locator": "Figures 1-2; Results pp. 2-5; SMT and NMR Methods p. 8"
+        },
+        {
+          "doi": "10.1038/s41467-023-37552-3",
+          "locator": "Supplementary Fig. 1; Tables 3-4 PDF pp. 32-33"
+        },
+        {
+          "doi": "10.1021/jo3024208",
+          "locator": "Demethylated SAM=SAH discussion p. 938 and note 27 p. 941"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RXN-SMT3-NPROPYL",
+      "finding": "The 1991 assay produces E-24-propylidenecholesterol from Z-isofucosterol; upstream methylations were also assayed. Other minor C30 sterols were reported from the sterol composition of the organism.",
+      "conversions": [
+        {
+          "id": "SMT-DESMOSTEROL-METHYLENE-GINER1991",
+          "connection_type": "supported",
+          "inputs": [
+            "DESMOSTEROL-CPD",
+            "S-ADENOSYLMETHIONINE"
+          ],
+          "outputs": [
+            "CPD-706",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "enzyme": "Sterol methyltransferase",
+          "evidence": "Giner and Djerassi (1991), Fig. 3 p. 1387; SMT assay and product identity, Methods p. 1391; cell-free membrane preparation of C. mucosa; the gene is not identified.",
+          "unresolved": [
+            {
+              "role": "balanced_equation",
+              "source_literal": "SAM supplies one methyl group and becomes SAH with each transfer; SAH was not measured in these assays.",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "SMT-METHYLENE-ISOFUCOSTEROL-GINER1991",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-706",
+            "S-ADENOSYLMETHIONINE"
+          ],
+          "outputs": [
+            "CPD-4127",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "enzyme": "Sterol methyltransferase",
+          "evidence": "Giner and Djerassi (1991), Fig. 3 p. 1387; SMT assay and product identity, Methods p. 1391; cell-free membrane preparation of C. mucosa; the gene is not identified.",
+          "unresolved": [
+            {
+              "role": "balanced_equation",
+              "source_literal": "SAM supplies one methyl group and becomes SAH with each transfer; SAH was not measured in these assays.",
+              "status": "unresolved"
+            }
+          ]
+        },
+        {
+          "id": "SMT-ISOFUCOSTEROL-E-PROPYLIDENE",
+          "connection_type": "supported",
+          "inputs": [
+            "CPD-4127",
+            "S-ADENOSYLMETHIONINE"
+          ],
+          "outputs": [
+            "E-24-PROPYLIDENECHOLESTEROL",
+            "ADENOSYL-HOMO-CYS"
+          ],
+          "enzyme": "Sterol methyltransferase",
+          "evidence": "Giner and Djerassi (1991), p. 1387 Fig. 3, pp. 1389-1390 Summary, p. 1391 SMT assay and product identity, p. 1392 labeled product preparation. The assay used methyl-tritiated SAM and a cell-free membrane preparation of Chrysoderma mucosa. HPLC with unlabeled carriers and orthogonal derivatives separates the E-propylidene product from the coeluting isopropyl-delta25 sterol. Giner et al. (2009) name the organism Chrysoreinhardia; organism names are given as reported.",
+          "unresolved": [
+            {
+              "role": "balanced_equation",
+              "source_literal": "SAM supplies one methyl group and becomes SAH with each transfer; SAH was not measured in these assays.",
+              "status": "unresolved"
+            }
+          ]
+        }
+      ],
+      "remaining": [
+        "Reduction of propylidenecholesterol to saturated n-propylcholesterol in the organism has not been shown. The PtO2 hydrogenation in the 1991 paper is an analytical derivatization to propylcholestanol after extraction.",
+        "The organism is reported as C. mucosa in the 1991 paper and as Chrysoreinhardia in the 2009 paper."
+      ],
+      "sources": [
+        {
+          "doi": "10.1021/ja00004a047",
+          "locator": "Fig. 3 p. 1387; Summary pp. 1389-1390; SMT assay and product identity p. 1391; labeled product preparation p. 1392"
+        },
+        {
+          "doi": "10.1002/cbdv.200800316",
+          "locator": "Source-specific E versus Z precursor discussion p. 1124; saturated sterol composition Table 6 pp. 1125-1127"
+        },
+        {
+          "doi": "10.1021/jo3024208",
+          "locator": "SAH identity p. 938 and note 27 p. 941"
+        }
+      ]
+    }
+  ]
+}
