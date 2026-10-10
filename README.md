@@ -103,11 +103,16 @@ The following data records are archived with the code on Zenodo:
 | `results/descriptors/TableS4_diagnostic_sensitivity.csv` | Descriptor statistics under each treatment of the Böttcher score, summarized in `TableS4_score_treatment_summary.csv` |
 | `results/projected_paths/Projection_graph_and_comparison_scope.csv` | Graph and comparison-set counts given in the Supplementary Methods |
 
-## Tests
+## Quick check without MetaCyc
 
 ```bash
-make test
+make test                                    # unit tests on small built-in examples
+make sources WORKBOOKS=/path/to/brocks2023   # the 156 samples, a few seconds
 ```
+
+`make sources` writes Table S5, Table S7 and five of the six Table S6 files to `results/sources/`.
+
+Tested with Python 3.11.9 and the versions in `requirements.lock` on macOS 26.0.1 (Apple M1 Max, 10 cores, 32 GB memory). No special hardware is needed.
 
 ## License
 
@@ -118,6 +123,6 @@ The code is released under the MIT license (`LICENSE`). MetaCyc and the Brocks e
 If you use this code, please cite the article and the archived code:
 
 - Hinkston, M. and Bradley, A. S. Quantifying biosynthetic constraints on molecular biomarker interpretation.
-- Hinkston, M. and Bradley, A. S. (2026). Code and data for "Quantifying biosynthetic constraints on molecular biomarker interpretation", version 1.0.0. Zenodo. https://doi.org/10.5281/zenodo.23253971
+- Hinkston, M. and Bradley, A. S. (2026). Code and data for "Quantifying biosynthetic constraints on molecular biomarker interpretation", version 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.23274257
 
 Citation metadata are in `CITATION.cff`.

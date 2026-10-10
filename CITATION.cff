@@ -7,8 +7,8 @@ title: >-
   Code and data for "Quantifying biosynthetic constraints on molecular
   biomarker interpretation"
 type: software
-version: 1.0.0
-doi: "10.5281/zenodo.23253971"
+version: 1.0.1
+doi: "10.5281/zenodo.23274257"
 license: MIT
 repository-code: "https://github.com/bradleylab/biomarker-biosynthetic-constraints"
 authors:
